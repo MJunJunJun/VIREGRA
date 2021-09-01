@@ -1,93 +1,93 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 8123 MB
+OS: 'Windows 10 Education; OS build 19043.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16307 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
+D:\Unity\2020.3.17f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-E:/Gemastik/File Poject/Bismillah VIREGRA
+D:/GEMASTIK/FIX Project/Bismillah-VIREGRA
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52898
-Successfully changed project path to: E:/Gemastik/File Poject/Bismillah VIREGRA
-E:/Gemastik/File Poject/Bismillah VIREGRA
+61102
+Successfully changed project path to: D:/GEMASTIK/FIX Project/Bismillah-VIREGRA
+D:/GEMASTIK/FIX Project/Bismillah-VIREGRA
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 63.11 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.80 ms.
+Refreshing native plugins compatible for Editor in 42.04 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.76 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/Gemastik/File Poject/Bismillah VIREGRA/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GEMASTIK/FIX Project/Bismillah-VIREGRA/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 750 Ti (ID=0x1380)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
     Vendor:   
-    VRAM:     2007 MB
+    VRAM:     6052 MB
     Driver:   30.0.14.7168
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Mono path[0] = 'D:/Unity/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002672 seconds.
+Register platform support module: D:/Unity/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001068 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 45.45 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 38.44 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.263 seconds
+- Completed reload, in  1.496 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2264ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (1496ms)
+		BeginReloadAssembly (47ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (477ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (439ms)
+			LoadAssemblies (46ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (178ms)
+			SetupTypeCache (126ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (183ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (231ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (46ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (88ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015227 seconds.
+Registered in 0.004789 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 45.60 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 35.85 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Gemastik\File Poject\Bismillah VIREGRA\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Gemastik\File Poject\Bismillah VIREGRA\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\GEMASTIK\FIX Project\Bismillah-VIREGRA\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GEMASTIK\FIX Project\Bismillah-VIREGRA\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
    --- End of inner exception stack trace ---
@@ -101,45 +101,45 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.496 seconds
+- Completed reload, in  1.172 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1497ms)
-		BeginReloadAssembly (176ms)
+	ReloadAssembly (1172ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1250ms)
-			LoadAssemblies (113ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1001ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (343ms)
+			SetupTypeCache (245ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (596ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (534ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (46ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (449ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (417ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 10 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
 Unloading 2049 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.9 MB.
-System memory in use after: 90.0 MB.
+System memory in use before: 89.7 MB.
+System memory in use after: 89.8 MB.
 
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2501.
-Total: 3.244400 ms (FindLiveObjects: 0.186700 ms CreateObjectMapping: 0.074300 ms MarkObjects: 2.912500 ms  DeleteObjects: 0.069700 ms)
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2498.
+Total: 3.047000 ms (FindLiveObjects: 0.177600 ms CreateObjectMapping: 0.056900 ms MarkObjects: 2.753700 ms  DeleteObjects: 0.058100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -153,31 +153,47 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Script
-  artifactKey: Guid(9ce27d0fbab4dee47805d5d757770013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script using Guid(9ce27d0fbab4dee47805d5d757770013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ec800ce5995760dc4652db1d4cbd3d') in 0.008594 seconds 
-  Import took 0.012741 seconds .
+  path: Assets/IRONHEAD Games/Scenes/World_Outdoor.unity
+  artifactKey: Guid(5041d70b592f91c4c8b6824c2ef6484f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/World_Outdoor.unity using Guid(5041d70b592f91c4c8b6824c2ef6484f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4058238ee6e6ab17d84b8a41ac146ee') in 0.013857 seconds 
+  Import took 0.016805 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004089 seconds.
-  path: Assets/Script
-  artifactKey: Guid(9ce27d0fbab4dee47805d5d757770013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script using Guid(9ce27d0fbab4dee47805d5d757770013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ec800ce5995760dc4652db1d4cbd3d') in 0.002895 seconds 
-  Import took 0.006533 seconds .
+  Time since last request: 0.000271 seconds.
+  path: Assets/IRONHEAD Games/Scenes/HomeScene.unity
+  artifactKey: Guid(66249e54836b48a42acadcc57da3e448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/HomeScene.unity using Guid(66249e54836b48a42acadcc57da3e448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979a8f26b89f9b21d1f81bdeec668c76') in 0.004499 seconds 
+  Import took 0.007133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/IRONHEAD Games
+  artifactKey: Guid(e8cfd965d8ff3424ca34b4de4307f35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games using Guid(e8cfd965d8ff3424ca34b4de4307f35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb271a63faef7c7bbdaa944c3a1f37eb') in 0.004943 seconds 
+  Import took 0.007665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/IRONHEAD Games/Scenes
+  artifactKey: Guid(d2f161c53dbdbbd46997eba0a0da121c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes using Guid(d2f161c53dbdbbd46997eba0a0da121c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99691a9a3ff904f6163e3d6475c0c2b') in 0.005479 seconds 
+  Import took 0.008226 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007551 seconds.
+Registered in 0.004589 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Gemastik\File Poject\Bismillah VIREGRA\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Gemastik\File Poject\Bismillah VIREGRA\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\GEMASTIK\FIX Project\Bismillah-VIREGRA\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GEMASTIK\FIX Project\Bismillah-VIREGRA\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
    --- End of inner exception stack trace ---
@@ -191,43 +207,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.292 seconds
+- Completed reload, in  1.146 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1292ms)
-		BeginReloadAssembly (136ms)
+	ReloadAssembly (1146ms)
+		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1084ms)
-			LoadAssemblies (95ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (973ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (322ms)
+			SetupTypeCache (241ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (479ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (507ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (395ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (429ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.76 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.61 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 Unloading 2018 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.7 MB.
-System memory in use after: 95.8 MB.
+System memory in use before: 95.5 MB.
+System memory in use after: 95.6 MB.
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2505.
-Total: 3.550900 ms (FindLiveObjects: 0.190600 ms CreateObjectMapping: 0.085800 ms MarkObjects: 3.243300 ms  DeleteObjects: 0.030000 ms)
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2501.
+Total: 2.957900 ms (FindLiveObjects: 0.185900 ms CreateObjectMapping: 0.061600 ms MarkObjects: 2.688700 ms  DeleteObjects: 0.020900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -238,6 +254,2228 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.38 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 48.7 MB.
+System memory in use after: 48.9 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2501.
+Total: 3.262400 ms (FindLiveObjects: 0.175200 ms CreateObjectMapping: 0.062600 ms MarkObjects: 3.010400 ms  DeleteObjects: 0.013600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.69 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 48.8 MB.
+System memory in use after: 48.9 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2501.
+Total: 4.051700 ms (FindLiveObjects: 0.267000 ms CreateObjectMapping: 0.076800 ms MarkObjects: 3.685300 ms  DeleteObjects: 0.021500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 826.486096 seconds.
+  path: Assets/IRONHEAD Games/Materials/Avatar1.mat
+  artifactKey: Guid(09f21d5167ca4ea44b3706edadc5b80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Avatar1.mat using Guid(09f21d5167ca4ea44b3706edadc5b80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc05e358bf497a0276e54c77b74bd76') in 0.455499 seconds 
+  Import took 0.458784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/IRONHEAD Games/Materials/Hair1.mat
+  artifactKey: Guid(a4875bd4df00db3468a57c4781de45b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Hair1.mat using Guid(a4875bd4df00db3468a57c4781de45b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2850e8cb62d9fca71a4e234c89780a05') in 0.028078 seconds 
+  Import took 0.030947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/IRONHEAD Games/Model/TreeA.fbx
+  artifactKey: Guid(04dd69d03fb2fb44b9a35e0bcc5f859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/TreeA.fbx using Guid(04dd69d03fb2fb44b9a35e0bcc5f859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab39156f0160592c6d273fa9bd508d2') in 0.166503 seconds 
+  Import took 0.169061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/IRONHEAD Games/Materials/FloorCaravan.mat
+  artifactKey: Guid(dc51b82c8244885479cb9f6342d32c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/FloorCaravan.mat using Guid(dc51b82c8244885479cb9f6342d32c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d659a454128e9705f7a5ff94117e7a') in 0.070713 seconds 
+  Import took 0.073301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/IRONHEAD Games/Materials/Basketball.mat
+  artifactKey: Guid(1daf905649660b8458486d977e16c565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Basketball.mat using Guid(1daf905649660b8458486d977e16c565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7b9e3ffaa58396772538a4f2a3aefb') in 0.023770 seconds 
+  Import took 0.026399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/IRONHEAD Games/Model/Avatar5.fbx
+  artifactKey: Guid(166544fdcae3ad745835e01eacb2f797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/Avatar5.fbx using Guid(166544fdcae3ad745835e01eacb2f797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba2abd234853833f49e63878a41685f') in 0.057457 seconds 
+  Import took 0.060043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/IRONHEAD Games/Materials/Avatar2.mat
+  artifactKey: Guid(de8de76c3ef3ff14598f67dea86a6d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Avatar2.mat using Guid(de8de76c3ef3ff14598f67dea86a6d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d917b1096c9e57312278e9ccfccf430') in 0.017421 seconds 
+  Import took 0.019951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/IRONHEAD Games/Materials/BallPilates.mat
+  artifactKey: Guid(b653aeae90d196641afd35d4cb8006b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/BallPilates.mat using Guid(b653aeae90d196641afd35d4cb8006b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae76c4b858dcb60505b686a5a65a33ae') in 0.018390 seconds 
+  Import took 0.020950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/IRONHEAD Games/Model/TennisRacket.fbx
+  artifactKey: Guid(6f46b9d784027d84a91b96602f62b326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/TennisRacket.fbx using Guid(6f46b9d784027d84a91b96602f62b326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64482f465745d5afa415c4965ec08a8b') in 0.026434 seconds 
+  Import took 0.028950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/IRONHEAD Games/Model/TreeC.fbx
+  artifactKey: Guid(37423572308282941b5fabb9c61ab572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/TreeC.fbx using Guid(37423572308282941b5fabb9c61ab572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7021142d996b2cb3629f0adfe5427d4') in 0.024526 seconds 
+  Import took 0.027128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/IRONHEAD Games/Model/BasketBall.fbx
+  artifactKey: Guid(c4b1bd137b46ea94d91bcdcf91e09078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/BasketBall.fbx using Guid(c4b1bd137b46ea94d91bcdcf91e09078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82bf40e9fb47523d64ae4cd178dfadd') in 0.017903 seconds 
+  Import took 0.020376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/IRONHEAD Games/Model/BaasketBoard.fbx
+  artifactKey: Guid(313f67f27665094409bc6dbea2291f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/BaasketBoard.fbx using Guid(313f67f27665094409bc6dbea2291f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66dd7b556c7d503ec35e7ddc462a6fdb') in 0.032303 seconds 
+  Import took 0.034849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/IRONHEAD Games/Materials/Avatar3.mat
+  artifactKey: Guid(0f2cae6342edd5d4e921d23b40ec716a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Avatar3.mat using Guid(0f2cae6342edd5d4e921d23b40ec716a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a80837aaf3e9924c2782684338a9ac2') in 0.022119 seconds 
+  Import took 0.024707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/IRONHEAD Games/Materials/Lamp.mat
+  artifactKey: Guid(1672e71118483ec4e83b15c4f405bccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Lamp.mat using Guid(1672e71118483ec4e83b15c4f405bccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8529b0867ef77880c88c4667182ff76') in 0.009308 seconds 
+  Import took 0.011982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/IRONHEAD Games/Materials/BasketHoop.mat
+  artifactKey: Guid(bb1ed01b1ea8535418535d056cba81d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/BasketHoop.mat using Guid(bb1ed01b1ea8535418535d056cba81d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25534d838f4c0d5b0a54f09a36a03a07') in 0.018519 seconds 
+  Import took 0.021659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/IRONHEAD Games/Materials/Handle.mat
+  artifactKey: Guid(9ba678d806bb910468fb800c54998745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Handle.mat using Guid(9ba678d806bb910468fb800c54998745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b535472a43bea13ea3da5598e68811a') in 0.010778 seconds 
+  Import took 0.013647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/IRONHEAD Games/Model/NerfBoard.fbx
+  artifactKey: Guid(e5e865bb4d6360446899f5afa9c2f7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/NerfBoard.fbx using Guid(e5e865bb4d6360446899f5afa9c2f7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a310d19aef32c10a141f21da1dfe7229') in 0.017616 seconds 
+  Import took 0.021201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/IRONHEAD Games/Model/NerfBullet.fbx
+  artifactKey: Guid(9dca892392a90e245aadf1bc10d3b24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/NerfBullet.fbx using Guid(9dca892392a90e245aadf1bc10d3b24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6402f7e9bc1d032de8695d94747b2b39') in 0.030780 seconds 
+  Import took 0.033634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/IRONHEAD Games/Materials/BasketBoard.mat
+  artifactKey: Guid(9cebc369ac38f684fa4b28be4ad16fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/BasketBoard.mat using Guid(9cebc369ac38f684fa4b28be4ad16fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe70eccae5ba3ac889f815491f9d683f') in 0.029438 seconds 
+  Import took 0.032096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/IRONHEAD Games/Materials/BasketLines.mat
+  artifactKey: Guid(6bbfa7bb65c46a54191b67ee5875d11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/BasketLines.mat using Guid(6bbfa7bb65c46a54191b67ee5875d11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5861fc480616fa61148a314b0f1ff205') in 0.050196 seconds 
+  Import took 0.053516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/IRONHEAD Games/Materials/Hair5.mat
+  artifactKey: Guid(828f81e69d0e726439c61bf1937e88da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Hair5.mat using Guid(828f81e69d0e726439c61bf1937e88da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf89f7f77d4e44f17f4c33c41e479a8') in 0.057971 seconds 
+  Import took 0.062246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/IRONHEAD Games/Model/LandCollider2.fbx
+  artifactKey: Guid(7fef82a03bb7b584a87f5cfd05b47690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/LandCollider2.fbx using Guid(7fef82a03bb7b584a87f5cfd05b47690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afbb8963677e613d6f945980c93f760') in 0.018115 seconds 
+  Import took 0.021794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/IRONHEAD Games/Model/Avatar1.fbx
+  artifactKey: Guid(e1771d0663ea83f4cb714ab1ce1d3d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/Avatar1.fbx using Guid(e1771d0663ea83f4cb714ab1ce1d3d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e744b953bdd8a335c30fdf936876a16') in 0.050315 seconds 
+  Import took 0.053039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/IRONHEAD Games/Model/RockB.fbx
+  artifactKey: Guid(159ca22cc6b7efb4cad7530c67b0ef4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/RockB.fbx using Guid(159ca22cc6b7efb4cad7530c67b0ef4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f430374107fca5530b6bbdd2e59886') in 0.018189 seconds 
+  Import took 0.021243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/IRONHEAD Games/Materials/Keyboard.mat
+  artifactKey: Guid(912bfc44f2121484799d9e54215273a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Keyboard.mat using Guid(912bfc44f2121484799d9e54215273a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cdaadbc296761a144abc05f0a072e9') in 0.009080 seconds 
+  Import took 0.011766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/IRONHEAD Games/Materials/Bench.mat
+  artifactKey: Guid(1bc49fb900cb6764a8311b2644b22acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Bench.mat using Guid(1bc49fb900cb6764a8311b2644b22acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10bc09025afb5134f4d885075021e5b') in 0.052974 seconds 
+  Import took 0.060376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000662 seconds.
+  path: Assets/IRONHEAD Games/Materials/CaravanCeiling.mat
+  artifactKey: Guid(f7e057696ae7f7b48883e56077925811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/CaravanCeiling.mat using Guid(f7e057696ae7f7b48883e56077925811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8a2f8d5f30e97c02d82c2772119e55') in 0.018653 seconds 
+  Import took 0.025445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/IRONHEAD Games/Model/Log.fbx
+  artifactKey: Guid(f8ca187a4bd90724e93ef08786bad5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/Log.fbx using Guid(f8ca187a4bd90724e93ef08786bad5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0776f11c490f073e67e9fcb05305f64a') in 0.021747 seconds 
+  Import took 0.025324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/IRONHEAD Games/Materials/Book.mat
+  artifactKey: Guid(2d7d44c0961236c4a99af8b39b5455e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Book.mat using Guid(2d7d44c0961236c4a99af8b39b5455e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e767988bfb58b96d98bd7ff66b6a414a') in 0.009527 seconds 
+  Import took 0.012093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/IRONHEAD Games/Materials/Cup.mat
+  artifactKey: Guid(1e8291b3df33ace428b1bc309516de7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Cup.mat using Guid(1e8291b3df33ace428b1bc309516de7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34e9e90c14b5fe490947fcb3f50057a') in 0.030677 seconds 
+  Import took 0.033249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/IRONHEAD Games/Model/NerfGun.fbx
+  artifactKey: Guid(7155e19acbff8c0439be957dbd0e0719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/NerfGun.fbx using Guid(7155e19acbff8c0439be957dbd0e0719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15e2a5d7c5f031fe2b553a99d469ebc') in 0.021486 seconds 
+  Import took 0.024027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/IRONHEAD Games/Materials/Avatar5.mat
+  artifactKey: Guid(593ab5ced9bab3043bbe912883e4e07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Avatar5.mat using Guid(593ab5ced9bab3043bbe912883e4e07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856e9d35be684ca63c023ff8061344a0') in 0.014376 seconds 
+  Import took 0.016857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/IRONHEAD Games/Model/Avatar4.fbx
+  artifactKey: Guid(2c913c71a75caeb47ac99021ed481226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/Avatar4.fbx using Guid(2c913c71a75caeb47ac99021ed481226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65bbd907494591b8f281d1217f53dd32') in 0.063680 seconds 
+  Import took 0.066378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/IRONHEAD Games/Materials/Desert.mat
+  artifactKey: Guid(7e83a59ad1e7c3d46855d1b906ef0733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Desert.mat using Guid(7e83a59ad1e7c3d46855d1b906ef0733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb0c5bab44598ad25ddae80debc7983') in 0.010337 seconds 
+  Import took 0.015516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/IRONHEAD Games/Materials/Hair2sad.mat
+  artifactKey: Guid(486b4088719f386468bbbb6704828618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Hair2sad.mat using Guid(486b4088719f386468bbbb6704828618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71fdcb657cfbfdbdca8dcac3d9a8d479') in 0.041781 seconds 
+  Import took 0.046365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000921 seconds.
+  path: Assets/IRONHEAD Games/Materials/Fire.mat
+  artifactKey: Guid(b519c38bc0df5ed4cb15213806bfcde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Fire.mat using Guid(b519c38bc0df5ed4cb15213806bfcde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042f4b7c5b5ef634938c48aad1093542') in 0.072692 seconds 
+  Import took 0.075985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/IRONHEAD Games/Model/Desert.fbx
+  artifactKey: Guid(6fc284651b326af42b181df013a65395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/Desert.fbx using Guid(6fc284651b326af42b181df013a65395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32cbaa3d6a39d65ae7a643f83804e46') in 0.019103 seconds 
+  Import took 0.021615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/IRONHEAD Games/Materials/Hair4.mat
+  artifactKey: Guid(2c4d0092002491f4886c9d6dd63da6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Hair4.mat using Guid(2c4d0092002491f4886c9d6dd63da6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4238c4244bfa3db7b2ac83b97c2f5bf9') in 0.017827 seconds 
+  Import took 0.020285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/IRONHEAD Games/Materials/FloorSchool.mat
+  artifactKey: Guid(e34887b3b0b22fc4fbf23ff551ff1d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/FloorSchool.mat using Guid(e34887b3b0b22fc4fbf23ff551ff1d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3652c66eefffcccd063b4a1062cb3812') in 0.108896 seconds 
+  Import took 0.111392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/IRONHEAD Games/Materials/Glass.mat
+  artifactKey: Guid(f165c204f5a0d29448ce4c7a5c6806b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Glass.mat using Guid(f165c204f5a0d29448ce4c7a5c6806b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a6feebfb5d491d057d4e892a311095') in 0.053776 seconds 
+  Import took 0.056273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/IRONHEAD Games/Materials/Glass2.mat
+  artifactKey: Guid(093a5b53835b99449b53d193bbe80cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Glass2.mat using Guid(093a5b53835b99449b53d193bbe80cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8f0215251ce224dc5b190ce1726a94') in 0.021233 seconds 
+  Import took 0.023771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/IRONHEAD Games/Materials/Hair3.mat
+  artifactKey: Guid(f9048364d0ddad2429aa3710bbb91251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Hair3.mat using Guid(f9048364d0ddad2429aa3710bbb91251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b341bead11b4801dcdb88baa4edcb089') in 0.018404 seconds 
+  Import took 0.020919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars
+  artifactKey: Guid(fac9ac1a6bf096f4f91bf0fa7cacdc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars using Guid(fac9ac1a6bf096f4f91bf0fa7cacdc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a704c40e9c3f00b5c3ab94371cedcc61') in 0.003772 seconds 
+  Import took 0.006160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/IRONHEAD Games/Model/RockA.fbx
+  artifactKey: Guid(99c19665c573f784b86dfccb57b811de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/RockA.fbx using Guid(99c19665c573f784b86dfccb57b811de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231affd5f639ce3d0a50117be867c83e') in 0.018587 seconds 
+  Import took 0.021602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/IRONHEAD Games/Materials/Door.mat
+  artifactKey: Guid(c2418e682efd3a64f89c9167f011c105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Door.mat using Guid(c2418e682efd3a64f89c9167f011c105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d8a02646922bb956faf6742deb2df2') in 0.009192 seconds 
+  Import took 0.012403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/IRONHEAD Games/Materials/Fire2.mat
+  artifactKey: Guid(b4762613ddb90444a92d58cef78744b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Fire2.mat using Guid(b4762613ddb90444a92d58cef78744b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd72d7314195f241119748c00c8b504') in 0.011119 seconds 
+  Import took 0.014568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/IRONHEAD Games/Model/TreeB.fbx
+  artifactKey: Guid(243415ed07d8b144280a05a5fc6d3f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/TreeB.fbx using Guid(243415ed07d8b144280a05a5fc6d3f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ca6c7a86e8003c3bff2d674e2c809d') in 0.024650 seconds 
+  Import took 0.027358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/IRONHEAD Games/Materials/Floor2.mat
+  artifactKey: Guid(1bb1df09c9caa664caf5506f2bc635dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Floor2.mat using Guid(1bb1df09c9caa664caf5506f2bc635dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1736991bcdf541c86fce1ff81c1f52bf') in 0.068930 seconds 
+  Import took 0.071490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/IRONHEAD Games/Materials/Door2.mat
+  artifactKey: Guid(a469befe2c2634b45962b3c5c14812c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Door2.mat using Guid(a469befe2c2634b45962b3c5c14812c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d40e77ebc3735fdfaa08d61b0a3253') in 0.018043 seconds 
+  Import took 0.020591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/IRONHEAD Games/Materials/FloorLogin.mat
+  artifactKey: Guid(ef68fbb08210a8e4ba32f82459e6ff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/FloorLogin.mat using Guid(ef68fbb08210a8e4ba32f82459e6ff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1121a8ff70e66dcc4837df1e0bc70141') in 0.015463 seconds 
+  Import took 0.018021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/IRONHEAD Games/Materials/KeyboardButtons.mat
+  artifactKey: Guid(6f33e0f38ca1a57458da6f5b2592aa6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/KeyboardButtons.mat using Guid(6f33e0f38ca1a57458da6f5b2592aa6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc35c01d7655ae944274b5605aa7551') in 0.009183 seconds 
+  Import took 0.012183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/IRONHEAD Games/Materials/Desk.mat
+  artifactKey: Guid(11531a57f7ea13d4bad4b64ee052c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Desk.mat using Guid(11531a57f7ea13d4bad4b64ee052c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb05f9ca59c21f93a06a6f3a54812e2e') in 0.011189 seconds 
+  Import took 0.014011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/IRONHEAD Games/Materials/Avatar4.mat
+  artifactKey: Guid(0d25e1732ca505248831830cfe1e9583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Avatar4.mat using Guid(0d25e1732ca505248831830cfe1e9583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9daab1eca9a9c95de3d6b80afa4797d0') in 0.018231 seconds 
+  Import took 0.021043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/IRONHEAD Games/Model/PilatesBall.fbx
+  artifactKey: Guid(4df0a07d9d273c141b9d25fde13e99f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/PilatesBall.fbx using Guid(4df0a07d9d273c141b9d25fde13e99f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00143eb4e2df8d6e9997b2610bbfd0d') in 0.018779 seconds 
+  Import took 0.021292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/IRONHEAD Games/Model/TableTennis.fbx
+  artifactKey: Guid(270ae1883b2c3324c8bf39eef66ed5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/TableTennis.fbx using Guid(270ae1883b2c3324c8bf39eef66ed5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ba8ca0bf5d61e1871cae36e4e4b759') in 0.043351 seconds 
+  Import took 0.045957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/IRONHEAD Games/Model/RockD.fbx
+  artifactKey: Guid(cf0579d82c6b2a74796a20e48d01895d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/RockD.fbx using Guid(cf0579d82c6b2a74796a20e48d01895d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3701ec6d68121eb4f18fa761215d6c3d') in 0.017566 seconds 
+  Import took 0.020222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/IRONHEAD Games/Model/Land.fbx
+  artifactKey: Guid(eed664b11103af14d9da434e4202ff8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/Land.fbx using Guid(eed664b11103af14d9da434e4202ff8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be604f4a9c8206aca3e69a3e48dfe722') in 0.037197 seconds 
+  Import took 0.040049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/IRONHEAD Games/Materials/BenchCushion.mat
+  artifactKey: Guid(3edd049e33f27384e92708974a41a0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/BenchCushion.mat using Guid(3edd049e33f27384e92708974a41a0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14256b5f8be5703a802020aacc3c1130') in 0.009903 seconds 
+  Import took 0.012659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/IRONHEAD Games/Model/FirePlace.fbx
+  artifactKey: Guid(05c22f5c7f6c2bd4cacfe9272dfd82e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/FirePlace.fbx using Guid(05c22f5c7f6c2bd4cacfe9272dfd82e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e8e8834d93198848706aef262fd837') in 0.025869 seconds 
+  Import took 0.028766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/IRONHEAD Games/Model/Avatar3.fbx
+  artifactKey: Guid(791644c7414d4f24d8420d92e728e091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/Avatar3.fbx using Guid(791644c7414d4f24d8420d92e728e091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663a0860f4683ca5a41ef4f997b6adc4') in 0.047136 seconds 
+  Import took 0.049704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/IRONHEAD Games/Model/LandCollider.fbx
+  artifactKey: Guid(b423f0098ff1d8441a84a5c0f3516932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/LandCollider.fbx using Guid(b423f0098ff1d8441a84a5c0f3516932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a032966fe3767b45f60c87eec8f4f5b4') in 0.016630 seconds 
+  Import took 0.019115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/IRONHEAD Games/Model/LandCollider1.fbx
+  artifactKey: Guid(fc0025812d3071d4dbdfd0841ba9d308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/LandCollider1.fbx using Guid(fc0025812d3071d4dbdfd0841ba9d308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cefd49aaba9255105a9c2018ccbbb07') in 0.017986 seconds 
+  Import took 0.020461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/IRONHEAD Games/Model/RockC.fbx
+  artifactKey: Guid(49dec4b718cc0664db44829961ea9fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/RockC.fbx using Guid(49dec4b718cc0664db44829961ea9fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092b9790cd7350841834709a1625b6ba') in 0.018340 seconds 
+  Import took 0.020931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar5.prefab
+  artifactKey: Guid(089d38c2beff1f044b446797593d7269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar5.prefab using Guid(089d38c2beff1f044b446797593d7269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292bb84983f242e13a7a81d4d8237419') in 0.013541 seconds 
+  Import took 0.016411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar4.prefab
+  artifactKey: Guid(47133d67b3a40f04eb97e5089982ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar4.prefab using Guid(47133d67b3a40f04eb97e5089982ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e62b39fb389cc15f8f7b892a35408af') in 0.015289 seconds 
+  Import took 0.018181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar3.prefab
+  artifactKey: Guid(e8090dbb771374144a023faf37db10eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar3.prefab using Guid(e8090dbb771374144a023faf37db10eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0756d52af5308fa05870e51fb6cf6d41') in 0.015142 seconds 
+  Import took 0.017804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar2.prefab
+  artifactKey: Guid(0c74eca2d21234b42b00d95293f1ee7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar2.prefab using Guid(0c74eca2d21234b42b00d95293f1ee7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29196a74d5d34e47211f41b166f5afc') in 0.015515 seconds 
+  Import took 0.018238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar1.prefab
+  artifactKey: Guid(69edaa7f6d0367845b76420b47e4be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar1.prefab using Guid(69edaa7f6d0367845b76420b47e4be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1292416e372cbbb462f4118ebdbd29') in 0.016231 seconds 
+  Import took 0.018840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/IRONHEAD Games/Model/Caravan.fbx
+  artifactKey: Guid(7586964749e85494bb64d8c66c05abe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/Caravan.fbx using Guid(7586964749e85494bb64d8c66c05abe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3313dac084d82f7ecf40f8d65db84082') in 0.236536 seconds 
+  Import took 0.239398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/IRONHEAD Games/Model/School.fbx
+  artifactKey: Guid(ff3ed56f3b645c64e9ad3dd08dda21a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/School.fbx using Guid(ff3ed56f3b645c64e9ad3dd08dda21a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41094956c8913b78f3944de84da26a1') in 0.126178 seconds 
+  Import took 0.128884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/IRONHEAD Games/Model/Avatar2.fbx
+  artifactKey: Guid(91cbd9356c50e0c40bfa26bdc36290c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/Avatar2.fbx using Guid(91cbd9356c50e0c40bfa26bdc36290c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f9a566b6818ec73afb1e01b18dfb3f') in 0.047919 seconds 
+  Import took 0.050631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/IRONHEAD Games/Model/TennisBall.fbx
+  artifactKey: Guid(4bdd08e78a415fa439bdf2afd73b444b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/TennisBall.fbx using Guid(4bdd08e78a415fa439bdf2afd73b444b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a28fb3159dff7422b10a4034c674b5') in 0.018483 seconds 
+  Import took 0.021118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 292.375995 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df672b4aaba54310d34c83eef51bb8') in 0.006412 seconds 
+  Import took 0.009783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.781915 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6a35c3cddc746e7501c0bd0ed6d4ce') in 0.001725 seconds 
+  Import took 0.004986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 407.904209 seconds.
+  path: Assets/Samples/XR Interaction Toolkit
+  artifactKey: Guid(af25637dc0030fe449fe5e8ae49afd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit using Guid(af25637dc0030fe449fe5e8ae49afd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396c638f5b6e56ce4038062b4d80a586') in 0.005772 seconds 
+  Import took 0.009854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.493367 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4
+  artifactKey: Guid(8a6c5253d23fe764d84a801cb9d775bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4 using Guid(8a6c5253d23fe764d84a801cb9d775bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e82f7d35013e82524215c2cd8bbefc') in 0.004643 seconds 
+  Import took 0.007809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.464829 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions
+  artifactKey: Guid(2538aae947f5a8d45b6fd00c5bb01f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions using Guid(2538aae947f5a8d45b6fd00c5bb01f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79db30775a750d7aac4eafd982554ac7') in 0.004903 seconds 
+  Import took 0.008048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067444 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Continuous Move.preset
+  artifactKey: Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Continuous Move.preset using Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbcd3ff63fcd09b3be425163d5c9845') in 0.104408 seconds 
+  Import took 0.108188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b511b2e0146a33c1387a4b0a47b81e') in 0.014739 seconds 
+  Import took 0.018102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Continuous Turn.preset
+  artifactKey: Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Continuous Turn.preset using Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e039f96452fb154a4fabce180b317f') in 0.008652 seconds 
+  Import took 0.011749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Right Controller.preset
+  artifactKey: Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Right Controller.preset using Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c535d499cc3f394b161a582cab7b97') in 0.013628 seconds 
+  Import took 0.016799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Left Controller.preset
+  artifactKey: Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Left Controller.preset using Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd5147fac95f957b370d29f0afe3119') in 0.006367 seconds 
+  Import took 0.009154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Snap Turn.preset
+  artifactKey: Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Snap Turn.preset using Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698c7e2c2901237432c76581133fb1f1') in 0.008126 seconds 
+  Import took 0.011047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Right Controller.preset
+  artifactKey: Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Right Controller.preset using Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c535d499cc3f394b161a582cab7b97') in 0.004532 seconds 
+  Import took 0.007092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001501 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Snap Turn.preset
+  artifactKey: Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Snap Turn.preset using Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698c7e2c2901237432c76581133fb1f1') in 0.002557 seconds 
+  Import took 0.005871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 307.602881 seconds.
+  path: Assets/IRONHEAD Games/Materials/LampArm.mat
+  artifactKey: Guid(40b220e483b0fcb499eaaefdffae8711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/LampArm.mat using Guid(40b220e483b0fcb499eaaefdffae8711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2ecdb9a3458473a9848b9e8c938cab') in 0.010864 seconds 
+  Import took 0.014446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/IRONHEAD Games/Materials/Plastic.mat
+  artifactKey: Guid(0e490a026b846604cb1f4aeafff25af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Plastic.mat using Guid(0e490a026b846604cb1f4aeafff25af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc210a3b9eabcd620babeeb1239d01b') in 0.027979 seconds 
+  Import took 0.031571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/IRONHEAD Games/Materials/Leaf1.mat
+  artifactKey: Guid(3580d24efff536147b11b28b488705b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Leaf1.mat using Guid(3580d24efff536147b11b28b488705b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6785718d53afa8a1484b82dea7234e') in 0.008952 seconds 
+  Import took 0.011744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/IRONHEAD Games/Materials/Mirror.mat
+  artifactKey: Guid(c45bdb744f7d9fe4bb262f38ba58666c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Mirror.mat using Guid(c45bdb744f7d9fe4bb262f38ba58666c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e716ae0246fb3344b3041774fb7c4ee') in 0.008889 seconds 
+  Import took 0.011813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/IRONHEAD Games/Materials/Mirror Render Texture.mat
+  artifactKey: Guid(576f48da8a871fe4daceb2363af81d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Mirror Render Texture.mat using Guid(576f48da8a871fe4daceb2363af81d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd288d3dd267dd7b5e5642da76d5f8f6a') in 0.008714 seconds 
+  Import took 0.011486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/IRONHEAD Games/Materials/New Material.mat
+  artifactKey: Guid(20e2a594577a0eb4f97dc1639a9150a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/New Material.mat using Guid(20e2a594577a0eb4f97dc1639a9150a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822641a4a4cf3c2d022ddc9e284707c7') in 0.010167 seconds 
+  Import took 0.012962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/IRONHEAD Games/Materials/Metal2.mat
+  artifactKey: Guid(fdde0108ce92e684fa64205c3a0ca537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Metal2.mat using Guid(fdde0108ce92e684fa64205c3a0ca537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e2b023622824c2504c3f78ae8ad4e5') in 0.010351 seconds 
+  Import took 0.013068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/IRONHEAD Games/Materials/Roof.mat
+  artifactKey: Guid(f41b2232e8d0bc444b5da171c3ef8902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Roof.mat using Guid(f41b2232e8d0bc444b5da171c3ef8902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75d63d08f159d98bde6fb89bde2c4a7') in 0.010315 seconds 
+  Import took 0.013339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/IRONHEAD Games/Materials/Metal.mat
+  artifactKey: Guid(8c6da0141b9264d4398a37808b8b729e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Metal.mat using Guid(8c6da0141b9264d4398a37808b8b729e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00780311bd402097e36f265bc4e0131f') in 0.009954 seconds 
+  Import took 0.012737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/IRONHEAD Games/Materials/Platform.mat
+  artifactKey: Guid(62e954d8dbf74cc41a47ecd11f354b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Platform.mat using Guid(62e954d8dbf74cc41a47ecd11f354b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f34fbb2a8b812487e8dfbf43fb853f') in 0.010629 seconds 
+  Import took 0.013550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/IRONHEAD Games/Materials/Screen2.mat
+  artifactKey: Guid(4444b53da20250641b5690db1c164848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Screen2.mat using Guid(4444b53da20250641b5690db1c164848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa9d25c703b1811a26ee3ed5b9bda45') in 0.037688 seconds 
+  Import took 0.040326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/IRONHEAD Games/Materials/LampPiece.mat
+  artifactKey: Guid(b22279eeb67912a4982205955df8610b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/LampPiece.mat using Guid(b22279eeb67912a4982205955df8610b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d48d475615a40ab44967366a3a518c3') in 0.009024 seconds 
+  Import took 0.011543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/IRONHEAD Games/Materials/Leaf5.mat
+  artifactKey: Guid(42e59d7df917e0d45982556f55625131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Leaf5.mat using Guid(42e59d7df917e0d45982556f55625131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ff7d0b13b887f50ab387c27cd76cd3') in 0.009251 seconds 
+  Import took 0.012197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/IRONHEAD Games/Materials/Nerf.mat
+  artifactKey: Guid(0467256fa6cb8f6499aa83478dfbaec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Nerf.mat using Guid(0467256fa6cb8f6499aa83478dfbaec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901120f073eaefa4e0b4f9408f88311c') in 0.012093 seconds 
+  Import took 0.015024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/IRONHEAD Games/Materials/LampBulb.mat
+  artifactKey: Guid(3c027555bd2110f4aa06f3b0ff30c61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/LampBulb.mat using Guid(3c027555bd2110f4aa06f3b0ff30c61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659928fb80f11ffa7e3680611f69af68') in 0.008915 seconds 
+  Import took 0.011703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/IRONHEAD Games/Materials/Rail.mat
+  artifactKey: Guid(d3ed7d2ce55712c43acce8a4e091a3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Rail.mat using Guid(d3ed7d2ce55712c43acce8a4e091a3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9dbb83c19dffb7049deb607cfd8db3') in 0.009098 seconds 
+  Import took 0.011984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/IRONHEAD Games/Materials/ScreenPlastic.mat
+  artifactKey: Guid(2ab92f6f33e86fe46bb9eb6c583dd930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/ScreenPlastic.mat using Guid(2ab92f6f33e86fe46bb9eb6c583dd930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9005a686269f26b7b307819d183939') in 0.008642 seconds 
+  Import took 0.011614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/IRONHEAD Games/Materials/Shelf.mat
+  artifactKey: Guid(10d98e9bd6e93e34aab96432e67c1214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Shelf.mat using Guid(10d98e9bd6e93e34aab96432e67c1214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fab8e456b3e873ad9cde5dcd19acc13') in 0.010029 seconds 
+  Import took 0.012827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/IRONHEAD Games/Materials/Leaf3.mat
+  artifactKey: Guid(b523c3a69aa9b04498876539abb7298b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Leaf3.mat using Guid(b523c3a69aa9b04498876539abb7298b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b15f04ad4a16b3a2deead3d82d67b3') in 0.024832 seconds 
+  Import took 0.027765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/IRONHEAD Games/Materials/LowPolyWaterMaterial.mat
+  artifactKey: Guid(8538bd626cb3e80478f62e319f75e337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/LowPolyWaterMaterial.mat using Guid(8538bd626cb3e80478f62e319f75e337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf89cbfc4966f1343564850141480622') in 0.009732 seconds 
+  Import took 0.012587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/IRONHEAD Games/Materials/Mouse.mat
+  artifactKey: Guid(ced32b941df11fd49963dbff2f9388b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Mouse.mat using Guid(ced32b941df11fd49963dbff2f9388b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb0edcbac31edf119181cdda531685f') in 0.022454 seconds 
+  Import took 0.025161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/IRONHEAD Games/Materials/Postit2.mat
+  artifactKey: Guid(11f669172160aee45b756250fbc71d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Postit2.mat using Guid(11f669172160aee45b756250fbc71d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e47808fcfe88597ffa183021cb48135') in 0.022799 seconds 
+  Import took 0.025751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/IRONHEAD Games/Materials/Screen 1.mat
+  artifactKey: Guid(dabfc1a3bb073404b985a7d920e65f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Screen 1.mat using Guid(dabfc1a3bb073404b985a7d920e65f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae10b95aefa60d8f18345d8bcbb0c48') in 0.014549 seconds 
+  Import took 0.017373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/IRONHEAD Games/Materials/NerfBoard.mat
+  artifactKey: Guid(22b4ac832223524498117db292831320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/NerfBoard.mat using Guid(22b4ac832223524498117db292831320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451ed97d5bf4da5913e3e370bdd5ca7f') in 0.077209 seconds 
+  Import took 0.080009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/IRONHEAD Games/Materials/Pillow.mat
+  artifactKey: Guid(999dbbf67e923b64bb54cd10157b553f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Pillow.mat using Guid(999dbbf67e923b64bb54cd10157b553f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ff31c0551054a38cb36880f1771fa1') in 0.009160 seconds 
+  Import took 0.011933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/IRONHEAD Games/Materials/Land.mat
+  artifactKey: Guid(7aed695e7c562cc43a56feb6900c2b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Land.mat using Guid(7aed695e7c562cc43a56feb6900c2b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e55d0e362a4ac24bc25e39265d9f02a') in 0.009032 seconds 
+  Import took 0.012023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/IRONHEAD Games/Materials/Racket1.mat
+  artifactKey: Guid(2082468ce4434054db09d84d9af72a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Racket1.mat using Guid(2082468ce4434054db09d84d9af72a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c919054dbfa7b460d3f75836cfd45c') in 0.008354 seconds 
+  Import took 0.011422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/IRONHEAD Games/Materials/Rock.mat
+  artifactKey: Guid(ea598018b058b29458f379bc49d95e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Rock.mat using Guid(ea598018b058b29458f379bc49d95e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245beace82e331a5c3df0dfa314fd968') in 0.010252 seconds 
+  Import took 0.012861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/IRONHEAD Games/Materials/Land2.mat
+  artifactKey: Guid(226223f825d563645868912bf5b9f213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Land2.mat using Guid(226223f825d563645868912bf5b9f213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b240d818a2cf7d58295d9e36c4068c2') in 0.011619 seconds 
+  Import took 0.014348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/IRONHEAD Games/Materials/Leaf2.mat
+  artifactKey: Guid(790852ef821b6ee4caf7c076f6e45292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Leaf2.mat using Guid(790852ef821b6ee4caf7c076f6e45292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a6f0e4afde6fe22a4261f8023ed070') in 0.009661 seconds 
+  Import took 0.012724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/IRONHEAD Games/Materials/PcCase.mat
+  artifactKey: Guid(5e3ae3291c9c9d14a857157dea9ebd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/PcCase.mat using Guid(5e3ae3291c9c9d14a857157dea9ebd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fae4ac04d17909a6d512ecdcfbc3300') in 0.009463 seconds 
+  Import took 0.012827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/IRONHEAD Games/Materials/PlatformHolo.mat
+  artifactKey: Guid(3c720f35af0ebc0448291a4ed5d9e7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/PlatformHolo.mat using Guid(3c720f35af0ebc0448291a4ed5d9e7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc7ec50543184e2b01023c68f221469') in 0.051799 seconds 
+  Import took 0.054794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/IRONHEAD Games/Materials/Postit.mat
+  artifactKey: Guid(1c7c66e3b35ccba4295557fdc440b4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Postit.mat using Guid(1c7c66e3b35ccba4295557fdc440b4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3333f598b8f94e78593e665c3f77fa64') in 0.008798 seconds 
+  Import took 0.011915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/IRONHEAD Games/Materials/Leaf4.mat
+  artifactKey: Guid(3a61504a3971e474898ccccc825e5634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Leaf4.mat using Guid(3a61504a3971e474898ccccc825e5634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195818546a939c391de5b6e6ff69033b') in 0.009702 seconds 
+  Import took 0.012813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/IRONHEAD Games/Materials/PlatformButton.mat
+  artifactKey: Guid(a7659b5d3d566894b981c99c36a30ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/PlatformButton.mat using Guid(a7659b5d3d566894b981c99c36a30ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09469cc0cd0e71e2eecc0d942fac4e34') in 0.011271 seconds 
+  Import took 0.014349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/IRONHEAD Games/Materials/Racket2.mat
+  artifactKey: Guid(a179ba3d2f5735841bc3a1a21b4fb3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Racket2.mat using Guid(a179ba3d2f5735841bc3a1a21b4fb3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0fce49573120ffad46879de4f074bd') in 0.009475 seconds 
+  Import took 0.012508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.978253 seconds.
+  path: Assets/IRONHEAD Games/Textures/Avatar1.png
+  artifactKey: Guid(0164dade319b9254b86e7dc5f9f474ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/Avatar1.png using Guid(0164dade319b9254b86e7dc5f9f474ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109937b3b739aa57602da7471ee5dd7a') in 0.064389 seconds 
+  Import took 0.067292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/IRONHEAD Games/Textures/PlatformHoloAlbedoTransparency.png
+  artifactKey: Guid(fe4dab90607eb734d898417dbe390076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/PlatformHoloAlbedoTransparency.png using Guid(fe4dab90607eb734d898417dbe390076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a8ddae4eb9cf2aab9ac7408da3d80e') in 0.008979 seconds 
+  Import took 0.012400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/IRONHEAD Games/Textures/NerfBoardAlbedo.png
+  artifactKey: Guid(8049e4bd9b63d8046a1e10ea988bdbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/NerfBoardAlbedo.png using Guid(8049e4bd9b63d8046a1e10ea988bdbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6d11f57eb0ca2033bc05fc5b06f46e') in 0.042454 seconds 
+  Import took 0.045131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/IRONHEAD Games/Textures/Watch.png
+  artifactKey: Guid(a686191582a4646469247ca91763bd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/Watch.png using Guid(a686191582a4646469247ca91763bd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b50a385f3ddd9f1df9293cb702eee2') in 0.008231 seconds 
+  Import took 0.011187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/IRONHEAD Games/Textures/Mirror Render Texture.renderTexture
+  artifactKey: Guid(9792f8a8c9db37343b1223b74448a1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/Mirror Render Texture.renderTexture using Guid(9792f8a8c9db37343b1223b74448a1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d73ba41036342fbba347d8cdf09ac37') in 0.025416 seconds 
+  Import took 0.028094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/IRONHEAD Games/Textures/SchoolPicture.png
+  artifactKey: Guid(18ee31a95265bf3409bf97a779be8798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/SchoolPicture.png using Guid(18ee31a95265bf3409bf97a779be8798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff482df5838f0a0d751681cbbe79750a') in 0.033169 seconds 
+  Import took 0.035897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/IRONHEAD Games/Textures/Wood.png
+  artifactKey: Guid(a975a002d8a841f43b54bd38ab129fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/Wood.png using Guid(a975a002d8a841f43b54bd38ab129fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9709c267e4d6de45fabb9c30da3a90cd') in 0.009184 seconds 
+  Import took 0.011981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/IRONHEAD Games/Textures/OutdoorPicture.png
+  artifactKey: Guid(a8d09946967808d408d9638ba9b59526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/OutdoorPicture.png using Guid(a8d09946967808d408d9638ba9b59526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f254c596c238b6897d797824dad3d376') in 0.018086 seconds 
+  Import took 0.021149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/IRONHEAD Games/Textures/NextPreviousButtonTexture.jpeg
+  artifactKey: Guid(d51c32228cb5ab641947f38e017abb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/NextPreviousButtonTexture.jpeg using Guid(d51c32228cb5ab641947f38e017abb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a204b496c01a2ad249355653e729756') in 0.017759 seconds 
+  Import took 0.020755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/IRONHEAD Games/Textures/Screen2.png
+  artifactKey: Guid(2d59a52afb66ad444a1a13e3b5c5ecf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/Screen2.png using Guid(2d59a52afb66ad444a1a13e3b5c5ecf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70d06eb6a062beaf8f7e27b0f0d8cce') in 0.025169 seconds 
+  Import took 0.027939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/IRONHEAD Games/Textures/Wood2Normal.png
+  artifactKey: Guid(a8e7f55fa04606d418612382d8700741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/Wood2Normal.png using Guid(a8e7f55fa04606d418612382d8700741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca80c5666470d9c2dd03823594a527d2') in 0.010133 seconds 
+  Import took 0.012984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/IRONHEAD Games/Textures/Screen1.png
+  artifactKey: Guid(30034cefd8105024880703e1895f8f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/Screen1.png using Guid(30034cefd8105024880703e1895f8f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e407bc06e691984553139d9416cf601') in 0.014039 seconds 
+  Import took 0.016989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/IRONHEAD Games/Textures/Wood2.png
+  artifactKey: Guid(952ee0e5682cb1e4eae44f93a4f8924f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/Wood2.png using Guid(952ee0e5682cb1e4eae44f93a4f8924f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271c2e50c45a1719e07ed1ee7a8ffe03') in 0.010199 seconds 
+  Import took 0.012842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/IRONHEAD Games/Textures/Avatar3.png
+  artifactKey: Guid(3c197bcbe69183c42bc8b9ffd7a01a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/Avatar3.png using Guid(3c197bcbe69183c42bc8b9ffd7a01a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27edccc03384de88e0fea0ad2447fffb') in 0.010120 seconds 
+  Import took 0.012956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/IRONHEAD Games/Textures/Avatar4.png
+  artifactKey: Guid(7a31f4cf5eab67b42ac0f90039751a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/Avatar4.png using Guid(7a31f4cf5eab67b42ac0f90039751a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e76bfe78669896eb428977f64d8159') in 0.011382 seconds 
+  Import took 0.014164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/IRONHEAD Games/Textures/Nerf.png
+  artifactKey: Guid(331851400631f2a4790b9862b8fe41c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/Nerf.png using Guid(331851400631f2a4790b9862b8fe41c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01fbedfd63e198e7b1c5dae656afefd') in 0.010017 seconds 
+  Import took 0.012903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/IRONHEAD Games/Textures/PlatformButtonAlbedo.png
+  artifactKey: Guid(e4585e5651ccbfd49b5f971440bda3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/PlatformButtonAlbedo.png using Guid(e4585e5651ccbfd49b5f971440bda3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507781f8d59d52a3fc8524a5a57dac58') in 0.011398 seconds 
+  Import took 0.014439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/IRONHEAD Games/Textures/MicImage.jpeg
+  artifactKey: Guid(3b696d42e955a1b4f828949711e4bb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/MicImage.jpeg using Guid(3b696d42e955a1b4f828949711e4bb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519b03ff1abb580b444d654ceaf6a30b') in 0.032520 seconds 
+  Import took 0.035217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/IRONHEAD Games/Textures/Avatar2.png
+  artifactKey: Guid(11fab0f4df314ad46b232b2cc8f5d6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/Avatar2.png using Guid(11fab0f4df314ad46b232b2cc8f5d6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f279752359d5f8b9f37172fcaeb46c4b') in 0.009909 seconds 
+  Import took 0.012829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/IRONHEAD Games/Textures/MicImage.jpeg
+  artifactKey: Guid(3b696d42e955a1b4f828949711e4bb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/MicImage.jpeg using Guid(3b696d42e955a1b4f828949711e4bb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519b03ff1abb580b444d654ceaf6a30b') in 0.014055 seconds 
+  Import took 0.016838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/IRONHEAD Games/Textures/SpeakerImage.jpeg
+  artifactKey: Guid(44fdbdb5cac82b04f90e16085675ef7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/SpeakerImage.jpeg using Guid(44fdbdb5cac82b04f90e16085675ef7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1d74c3e15a9e67aa91fc9a2e1061d4') in 0.017080 seconds 
+  Import took 0.020259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.976610 seconds.
+  path: Assets/IRONHEAD Games/Textures/Mirror Render Texture.renderTexture
+  artifactKey: Guid(9792f8a8c9db37343b1223b74448a1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Textures/Mirror Render Texture.renderTexture using Guid(9792f8a8c9db37343b1223b74448a1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42bad3788c46f7a385f1e94671aec01c') in 0.009476 seconds 
+  Import took 0.012694 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.79 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 54.6 MB.
+System memory in use after: 54.7 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2553.
+Total: 4.054200 ms (FindLiveObjects: 0.193400 ms CreateObjectMapping: 0.067700 ms MarkObjects: 3.768600 ms  DeleteObjects: 0.023300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004969 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\GEMASTIK\FIX Project\Bismillah-VIREGRA\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GEMASTIK\FIX Project\Bismillah-VIREGRA\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.126 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1127ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (931ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (242ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (468ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (389ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.61 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2018 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.7 MB.
+System memory in use after: 99.8 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2556.
+Total: 3.477800 ms (FindLiveObjects: 0.196400 ms CreateObjectMapping: 0.060500 ms MarkObjects: 3.038700 ms  DeleteObjects: 0.181400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.26 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53.0 MB.
+System memory in use after: 53.2 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2556.
+Total: 4.179400 ms (FindLiveObjects: 0.290900 ms CreateObjectMapping: 0.090800 ms MarkObjects: 3.777200 ms  DeleteObjects: 0.019300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.27 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53.0 MB.
+System memory in use after: 53.2 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2556.
+Total: 3.754800 ms (FindLiveObjects: 0.195200 ms CreateObjectMapping: 0.061100 ms MarkObjects: 3.481600 ms  DeleteObjects: 0.016000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1872.672025 seconds.
+  path: Assets/IRONHEAD Games/Scenes/HomeScene.unity
+  artifactKey: Guid(66249e54836b48a42acadcc57da3e448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/HomeScene.unity using Guid(66249e54836b48a42acadcc57da3e448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8793c75ffda38216fe128f75ff5d206b') in 0.016787 seconds 
+  Import took 0.020466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.696196 seconds.
+  path: Assets/IRONHEAD Games/Scenes/HomeScene_Move.unity
+  artifactKey: Guid(66249e54836b48a42acadcc57da3e448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/HomeScene_Move.unity using Guid(66249e54836b48a42acadcc57da3e448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cab741556fe9f2c8c31970cd1eb5196') in 0.004213 seconds 
+  Import took 0.006908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.217782 seconds.
+  path: Assets/IRONHEAD Games/Scenes/HomeScene_Move 1.unity
+  artifactKey: Guid(dfe6560ca1d185440bdee3e3ecc40681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/HomeScene_Move 1.unity using Guid(dfe6560ca1d185440bdee3e3ecc40681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea03287f9042ce6caf9d8020de6dc253') in 0.004339 seconds 
+  Import took 0.007126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.415655 seconds.
+  path: Assets/IRONHEAD Games/Scenes/HomeScene_Teleport.unity
+  artifactKey: Guid(dfe6560ca1d185440bdee3e3ecc40681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/HomeScene_Teleport.unity using Guid(dfe6560ca1d185440bdee3e3ecc40681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e86ba215927484dbe185b8a0f1aded') in 0.004358 seconds 
+  Import took 0.007236 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004548 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\GEMASTIK\FIX Project\Bismillah-VIREGRA\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GEMASTIK\FIX Project\Bismillah-VIREGRA\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.972 seconds
+Domain Reload Profiling:
+	ReloadAssembly (972ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (827ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (232ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (379ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (304ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.58 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 2019 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.8 MB.
+System memory in use after: 99.9 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2560.
+Total: 2.970300 ms (FindLiveObjects: 0.183700 ms CreateObjectMapping: 0.055200 ms MarkObjects: 2.711200 ms  DeleteObjects: 0.019600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2009.150467 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Teleportation/TeleportReticle.prefab
+  artifactKey: Guid(ba7331f932a688a4f8e39cea819590de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Teleportation/TeleportReticle.prefab using Guid(ba7331f932a688a4f8e39cea819590de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ea976f4161b9b9188d6cc87e12b3a5') in 0.183550 seconds 
+  Import took 0.188520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.324709 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab3d7b285650663ad141e30b244a3b7') in 0.001837 seconds 
+  Import took 0.004546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.120711 seconds.
+  path: Assets/IRONHEAD Games/Scenes/World_School.unity
+  artifactKey: Guid(b72244336204212439510723e69fa9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/World_School.unity using Guid(b72244336204212439510723e69fa9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e87948a3b74512a1a1b3a5ba228623b') in 0.005209 seconds 
+  Import took 0.008670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.298353 seconds.
+  path: Assets/IRONHEAD Games/Scenes/HomeScene_Teleport.unity
+  artifactKey: Guid(dfe6560ca1d185440bdee3e3ecc40681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/HomeScene_Teleport.unity using Guid(dfe6560ca1d185440bdee3e3ecc40681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53465abd794514c39bd2e79f002a3004') in 0.001659 seconds 
+  Import took 0.005541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000817 seconds.
+  path: Assets/IRONHEAD Games/Scenes/HomeScene_Teleport.unity
+  artifactKey: Guid(dfe6560ca1d185440bdee3e3ecc40681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/HomeScene_Teleport.unity using Guid(dfe6560ca1d185440bdee3e3ecc40681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53465abd794514c39bd2e79f002a3004') in 0.001576 seconds 
+  Import took 0.004466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.067543 seconds.
+  path: Assets/IRONHEAD Games/Scenes/HomeScene_Teleport 1.unity
+  artifactKey: Guid(9fac3bb0f119ea944a28e20d8f159e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/HomeScene_Teleport 1.unity using Guid(9fac3bb0f119ea944a28e20d8f159e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a536dff287fe7d0a96e8e17611f454ca') in 0.005454 seconds 
+  Import took 0.008496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.156000 seconds.
+  path: Assets/IRONHEAD Games/Scenes/HomeScene_Teleport_Bismillah FIX.unity
+  artifactKey: Guid(9fac3bb0f119ea944a28e20d8f159e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/HomeScene_Teleport_Bismillah FIX.unity using Guid(9fac3bb0f119ea944a28e20d8f159e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338cf1510cedb6a1a69c55408cff80c1') in 0.006005 seconds 
+  Import took 0.008777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.151194 seconds.
+  path: Assets/IRONHEAD Games/Scenes/HomeScene_Teleport Backup.unity
+  artifactKey: Guid(dfe6560ca1d185440bdee3e3ecc40681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/HomeScene_Teleport Backup.unity using Guid(dfe6560ca1d185440bdee3e3ecc40681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0df6746bed73dfd787665ede01339fe') in 0.004830 seconds 
+  Import took 0.007729 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.93 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53.2 MB.
+System memory in use after: 53.3 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2561.
+Total: 4.065400 ms (FindLiveObjects: 0.193700 ms CreateObjectMapping: 0.064500 ms MarkObjects: 3.786500 ms  DeleteObjects: 0.019600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1506.544858 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Caravan Prefabs
+  artifactKey: Guid(8effe35ca677bc4468e0b82a194050bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Caravan Prefabs using Guid(8effe35ca677bc4468e0b82a194050bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5107e4de05fbc81ccd9895817b506c') in 0.006086 seconds 
+  Import took 0.009699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.178265 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Caravan Prefabs/Cup.prefab
+  artifactKey: Guid(b787c76c5e9f27d49b0358e843b9edb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Caravan Prefabs/Cup.prefab using Guid(b787c76c5e9f27d49b0358e843b9edb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb7299be7d331d0417f142c7b6d6dce') in 0.037051 seconds 
+  Import took 0.039948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Caravan Prefabs/NerfGun.prefab
+  artifactKey: Guid(1cd7de6eee15b15468784544d15ae3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Caravan Prefabs/NerfGun.prefab using Guid(1cd7de6eee15b15468784544d15ae3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da5ffaf4f26cf217d2605295e593b09') in 0.055047 seconds 
+  Import took 0.057699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Caravan Prefabs/NerfBoard.prefab
+  artifactKey: Guid(6498a99bb2c56a34fb748cb1d00b2d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Caravan Prefabs/NerfBoard.prefab using Guid(6498a99bb2c56a34fb748cb1d00b2d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae679b9bf94f2b27998dbdda9072246') in 0.098349 seconds 
+  Import took 0.101197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Caravan Prefabs/NerfBullet.prefab
+  artifactKey: Guid(db71efb6302ebf543a885b47777d6b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Caravan Prefabs/NerfBullet.prefab using Guid(db71efb6302ebf543a885b47777d6b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e815af23671e5832f12c30d80fa26463') in 0.026522 seconds 
+  Import took 0.029184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.642453 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2aaff11d5748a1935d1ddd7697f2e4') in 0.002028 seconds 
+  Import took 0.005735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 201.655688 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdbbed958117509f6625aa14fe784756') in 0.002212 seconds 
+  Import took 0.005619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 306.987255 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/DirectionalLightOutdoor.prefab
+  artifactKey: Guid(9dd2afe01b9cdfe49a0e2c890a33ae43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/DirectionalLightOutdoor.prefab using Guid(9dd2afe01b9cdfe49a0e2c890a33ae43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597b5b9476c7a000b47bc7d31589a54e') in 0.006927 seconds 
+  Import took 0.010264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/Land.prefab
+  artifactKey: Guid(e21e90a23dfae9a4e91b9a62ae6e07ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/Land.prefab using Guid(e21e90a23dfae9a4e91b9a62ae6e07ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4ebbfdea1fbd98a351126a8533693b') in 0.048339 seconds 
+  Import took 0.052921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/RockD.prefab
+  artifactKey: Guid(03ce5d657843d954098ced2a644a7896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/RockD.prefab using Guid(03ce5d657843d954098ced2a644a7896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b755a1b471fe8263792591652f41a4e') in 0.023718 seconds 
+  Import took 0.028287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/FirePlace.prefab
+  artifactKey: Guid(67ba5864b6ec20441a8243de97b959c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/FirePlace.prefab using Guid(67ba5864b6ec20441a8243de97b959c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3980558b88f45e9d8c6cccfaffb418a') in 0.062551 seconds 
+  Import took 0.065820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/RockB.prefab
+  artifactKey: Guid(3bbb469b329229d4884a85a688f3245c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/RockB.prefab using Guid(3bbb469b329229d4884a85a688f3245c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d1406a64ed50945cc93dc2c55ec4e4') in 0.008741 seconds 
+  Import took 0.011446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/LightFire.prefab
+  artifactKey: Guid(ea28c52b3443b02468ed05c15aa4e4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/LightFire.prefab using Guid(ea28c52b3443b02468ed05c15aa4e4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c59bd27ae107a46ced0c7eb3fc31e5') in 0.007234 seconds 
+  Import took 0.010120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/OutdoorAssets.prefab
+  artifactKey: Guid(54f9e7ba0d3793d46afaaa76597e301b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/OutdoorAssets.prefab using Guid(54f9e7ba0d3793d46afaaa76597e301b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556cf21e175ce8a6c319ae0aff32cdd5') in 0.048585 seconds 
+  Import took 0.053118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/TreeA.prefab
+  artifactKey: Guid(f413ab72a4014854fb22ecf2fe4f951e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/TreeA.prefab using Guid(f413ab72a4014854fb22ecf2fe4f951e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63029a9f23bbcf33de30cccdfafb03f3') in 0.008824 seconds 
+  Import took 0.011824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/TreeB.prefab
+  artifactKey: Guid(5550d0fbee9b2b64e8ef612f5b07b2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/TreeB.prefab using Guid(5550d0fbee9b2b64e8ef612f5b07b2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65dcf57c23b4870ce898acceb03211b1') in 0.011209 seconds 
+  Import took 0.014143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/RockC.prefab
+  artifactKey: Guid(3b0768bb91f064443aecc25f796e3bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/RockC.prefab using Guid(3b0768bb91f064443aecc25f796e3bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5549fa1ee1bd5f330b9e879e2ab61d6') in 0.023748 seconds 
+  Import took 0.026809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/ParticleFire.prefab
+  artifactKey: Guid(441b13c644322264da1e1505061e27ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/ParticleFire.prefab using Guid(441b13c644322264da1e1505061e27ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb980b85f13e2b26ec829f27e293502d') in 0.010818 seconds 
+  Import took 0.013968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/Log.prefab
+  artifactKey: Guid(630c0ce5de5ace9449e989865387e43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/Log.prefab using Guid(630c0ce5de5ace9449e989865387e43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270692ce7450fcbb28d2d9b217f2f690') in 0.010927 seconds 
+  Import took 0.014502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/RockA.prefab
+  artifactKey: Guid(0b69cc580cea5c14eb641eb56b4b1b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/RockA.prefab using Guid(0b69cc580cea5c14eb641eb56b4b1b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39abedd937b75bb88b3bc2b3cc554252') in 0.010542 seconds 
+  Import took 0.013992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/TreeC.prefab
+  artifactKey: Guid(f0662d655d41ee74383aa11d28d35927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Outdoor Prefabs/TreeC.prefab using Guid(f0662d655d41ee74383aa11d28d35927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a44c9f4757d0ce9607f90affef7e1a') in 0.014367 seconds 
+  Import took 0.017787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1056.735559 seconds.
+  path: Assets/IRONHEAD Games/Prefabs
+  artifactKey: Guid(d664af8f3cc392a42848540d0f523484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs using Guid(d664af8f3cc392a42848540d0f523484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3040c8ce3ddd8a6fa3af0cab7bc560cc') in 0.006213 seconds 
+  Import took 0.009721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 337.497207 seconds.
+  path: Assets/IRONHEAD Games/UI
+  artifactKey: Guid(2b44b3d76dd24e34f8577c4ca974df9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/UI using Guid(2b44b3d76dd24e34f8577c4ca974df9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff849f306c70f44e7301767ebe48573') in 0.005886 seconds 
+  Import took 0.009532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.993753 seconds.
+  path: Assets/Script/ActionBasedControllerManager.cs
+  artifactKey: Guid(feeb00a54a0f4874f8d1b8808c5acad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/ActionBasedControllerManager.cs using Guid(feeb00a54a0f4874f8d1b8808c5acad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af199d76bfa93156694308884d931a3') in 0.006965 seconds 
+  Import took 0.010182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011917 seconds.
+  path: Assets/Script/ActionBasedControllerManager.cs
+  artifactKey: Guid(feeb00a54a0f4874f8d1b8808c5acad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/ActionBasedControllerManager.cs using Guid(feeb00a54a0f4874f8d1b8808c5acad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af199d76bfa93156694308884d931a3') in 0.001485 seconds 
+  Import took 0.004495 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004888 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\GEMASTIK\FIX Project\Bismillah-VIREGRA\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GEMASTIK\FIX Project\Bismillah-VIREGRA\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.129 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1131ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (911ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (405ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.97 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2020 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.1 MB.
+System memory in use after: 100.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2566.
+Total: 3.170200 ms (FindLiveObjects: 0.187400 ms CreateObjectMapping: 0.071700 ms MarkObjects: 2.839000 ms  DeleteObjects: 0.071000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 648.910873 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09cadd40f1a4c27dbc2ff556fa752d3') in 0.033597 seconds 
+  Import took 0.037611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.557987 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a40aed571cfc481d2b7bc8ec9cd715') in 0.008420 seconds 
+  Import took 0.012002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.827218 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376c8d32f6b85d8207a996ce79392d57') in 0.009310 seconds 
+  Import took 0.012828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.190821 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ac52419145591f0bbacb0d02f892be') in 0.009429 seconds 
+  Import took 0.013767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.716562 seconds.
+  path: Assets/Script/UI_InteractionController.cs
+  artifactKey: Guid(d1660f2e84bec9148b14e23d421a71d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/UI_InteractionController.cs using Guid(d1660f2e84bec9148b14e23d421a71d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc9ab179df5576ffa06836c648f3ee8') in 0.005362 seconds 
+  Import took 0.008524 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004838 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\GEMASTIK\FIX Project\Bismillah-VIREGRA\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GEMASTIK\FIX Project\Bismillah-VIREGRA\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.032 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1032ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (873ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (385ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (306ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.60 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2020 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.7 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2569.
+Total: 3.267300 ms (FindLiveObjects: 0.212100 ms CreateObjectMapping: 0.057100 ms MarkObjects: 2.973600 ms  DeleteObjects: 0.023000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.218498 seconds.
+  path: Assets/Script/UI_InteractionController.cs
+  artifactKey: Guid(d1660f2e84bec9148b14e23d421a71d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/UI_InteractionController.cs using Guid(d1660f2e84bec9148b14e23d421a71d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c0f69da27aa4f081d3014fd84fcbc9') in 0.003816 seconds 
+  Import took 0.006423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.137440 seconds.
+  path: Assets/Script
+  artifactKey: Guid(9ce27d0fbab4dee47805d5d757770013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script using Guid(9ce27d0fbab4dee47805d5d757770013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817a326b8b587b68d30ef08627b3b2a0') in 0.006411 seconds 
+  Import took 0.009536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.909911 seconds.
+  path: Assets/Script/UI Script
+  artifactKey: Guid(703b597615364e24ab3a0a7ff6097327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/UI Script using Guid(703b597615364e24ab3a0a7ff6097327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03018709cf9bb0a59e3335ddc1dab543') in 0.004786 seconds 
+  Import took 0.007750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.374869 seconds.
+  path: Assets/Script/UI Script/ButtonScriptTest.cs
+  artifactKey: Guid(ab6070d9310ba2a44a63726ceed5d5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/UI Script/ButtonScriptTest.cs using Guid(ab6070d9310ba2a44a63726ceed5d5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660a8bbfad57dff514914ce09c4347ee') in 0.005655 seconds 
+  Import took 0.009494 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004705 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\GEMASTIK\FIX Project\Bismillah-VIREGRA\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GEMASTIK\FIX Project\Bismillah-VIREGRA\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.034 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1035ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (874ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (395ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (308ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.60 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2021 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.7 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2573.
+Total: 3.543800 ms (FindLiveObjects: 0.198700 ms CreateObjectMapping: 0.064100 ms MarkObjects: 3.226700 ms  DeleteObjects: 0.053100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 93.284504 seconds.
+  path: Assets/Script/UI Script/ButtonScriptTest.cs
+  artifactKey: Guid(ab6070d9310ba2a44a63726ceed5d5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/UI Script/ButtonScriptTest.cs using Guid(ab6070d9310ba2a44a63726ceed5d5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0102ab3ad647d4179eb195848acbfbd4') in 0.005320 seconds 
+  Import took 0.009061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/Script/UI Script/ButtonScriptTest.cs
+  artifactKey: Guid(ab6070d9310ba2a44a63726ceed5d5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/UI Script/ButtonScriptTest.cs using Guid(ab6070d9310ba2a44a63726ceed5d5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0102ab3ad647d4179eb195848acbfbd4') in 0.001728 seconds 
+  Import took 0.004591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.498520 seconds.
+  path: Assets/Script/UI Script/ButtonScriptTest.cs
+  artifactKey: Guid(ab6070d9310ba2a44a63726ceed5d5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/UI Script/ButtonScriptTest.cs using Guid(ab6070d9310ba2a44a63726ceed5d5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9553041015cb043737ee2f06168d0a66') in 0.002159 seconds 
+  Import took 0.006206 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004687 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\GEMASTIK\FIX Project\Bismillah-VIREGRA\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GEMASTIK\FIX Project\Bismillah-VIREGRA\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.002 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1002ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (840ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (366ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (290ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.61 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2021 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.8 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2576.
+Total: 4.094700 ms (FindLiveObjects: 0.217300 ms CreateObjectMapping: 0.059800 ms MarkObjects: 3.768800 ms  DeleteObjects: 0.047900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.32 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53.4 MB.
+System memory in use after: 53.5 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2576.
+Total: 3.456000 ms (FindLiveObjects: 0.202900 ms CreateObjectMapping: 0.063200 ms MarkObjects: 3.171300 ms  DeleteObjects: 0.017500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024171 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\GEMASTIK\FIX Project\Bismillah-VIREGRA\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GEMASTIK\FIX Project\Bismillah-VIREGRA\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.120 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1121ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (953ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (237ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (476ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (391ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.60 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 2021 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.5 MB.
+System memory in use after: 108.6 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2579.
+Total: 2.972500 ms (FindLiveObjects: 0.185400 ms CreateObjectMapping: 0.058300 ms MarkObjects: 2.708500 ms  DeleteObjects: 0.019500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.36 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.3 MB.
+System memory in use after: 61.4 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2579.
+Total: 4.448300 ms (FindLiveObjects: 0.201900 ms CreateObjectMapping: 0.060100 ms MarkObjects: 4.161700 ms  DeleteObjects: 0.023400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

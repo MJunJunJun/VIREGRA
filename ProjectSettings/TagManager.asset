@@ -11,11 +11,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - AvatarHead
+  - AvatarBody
+  - Teleport
+  - Interactable
+  - Player
   - 
   - 
   - 
