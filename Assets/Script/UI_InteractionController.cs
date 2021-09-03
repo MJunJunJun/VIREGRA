@@ -24,6 +24,9 @@ public class UI_InteractionController : MonoBehaviour
 
     [SerializeField]
     Vector3 positionOffsetForUICanvasGameobject;
+    public int JumlahPlayerPrefers;
+    public string namaPlayerPreferes;
+    public GameObject panelMenang, panelPause, panelkalah;
 
    
 
@@ -46,6 +49,26 @@ public class UI_InteractionController : MonoBehaviour
         UIController.GetComponent<XRRayInteractor>().enabled = false;
         UIController.GetComponent<XRInteractorLineVisual>().enabled = false;
     }
+
+    private void Update()
+    {
+        if (PlayerPrefs.GetInt(namaPlayerPreferes) >= JumlahPlayerPrefers)
+        {
+            inputActionReference_UISwitcher.action.performed += ActivateUIMode;
+            panelMenang.SetActive(true);
+            panelkalah.SetActive(false);
+            panelPause.SetActive(false);
+        }
+        else
+        {
+            panelMenang.SetActive(true);
+            panelkalah.SetActive(false);
+            panelPause.SetActive(true);
+        }
+        
+        
+    }
+
 
     /// <summary>
     /// This method is called when the player presses UI Switcher Button which is the input action defined in Default Input Actions.
