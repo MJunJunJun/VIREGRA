@@ -27,12 +27,46 @@ public class UI_InteractionController : MonoBehaviour
     public int JumlahPlayerPrefers;
     public string namaPlayerPreferes;
     public GameObject panelMenang, panelPause, panelkalah;
+    public bool waktuhabis;//bernilai true juka waktu habis
 
    
 
     private void OnEnable()
     {
         inputActionReference_UISwitcher.action.performed += ActivateUIMode;
+
+        /*if (PlayerPrefs.GetInt(namaPlayerPreferes) >= JumlahPlayerPrefers)
+        {
+            inputActionReference_UISwitcher.action.performed += ActivateUIMode;
+            panelMenang.SetActive(true);
+            panelkalah.SetActive(false);
+            panelPause.SetActive(false);
+        }
+        else
+        {
+            panelMenang.SetActive(true);
+            panelkalah.SetActive(false);
+            panelPause.SetActive(true);
+        }*/
+        if (PlayerPrefs.GetInt(namaPlayerPreferes) <= JumlahPlayerPrefers && waktuhabis == false)
+        {
+            panelMenang.SetActive(false);
+            panelkalah.SetActive(false);
+            panelPause.SetActive(true);
+        }
+        else if(PlayerPrefs.GetInt(namaPlayerPreferes) >= JumlahPlayerPrefers && waktuhabis == false)
+        {
+            panelMenang.SetActive(true);
+            panelkalah.SetActive(false);
+            panelPause.SetActive(false);
+        }
+        else
+        {
+            panelMenang.SetActive(false);
+            panelkalah.SetActive(true);
+            panelPause.SetActive(false);
+        }
+
     }
     private void OnDisable()
     {
@@ -52,19 +86,7 @@ public class UI_InteractionController : MonoBehaviour
 
     private void Update()
     {
-        if (PlayerPrefs.GetInt(namaPlayerPreferes) >= JumlahPlayerPrefers)
-        {
-            inputActionReference_UISwitcher.action.performed += ActivateUIMode;
-            panelMenang.SetActive(true);
-            panelkalah.SetActive(false);
-            panelPause.SetActive(false);
-        }
-        else
-        {
-            panelMenang.SetActive(true);
-            panelkalah.SetActive(false);
-            panelPause.SetActive(true);
-        }
+        
         
         
     }
