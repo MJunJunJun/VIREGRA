@@ -29,10 +29,35 @@ public class UI_InteractionController : MonoBehaviour
     public GameObject panelMenang, panelPause, panelkalah;
     public bool waktuhabis;//bernilai true juka waktu habis
 
+    #region Unity Method
+    private void Start()
+    {
+        //Deactivating UI Canvas Gameobject by default
+        UICanvasGameobject.SetActive(false);
+        waktuhabis = false;
+        //Deactivating UI Controller by default
+        UIController.GetComponent<XRRayInteractor>().enabled = false;
+        UIController.GetComponent<XRInteractorLineVisual>().enabled = false;
+        PlayerPrefs.GetInt(namaPlayerPreferes, JumlahPlayerPrefers);
+
+    }
+
+    private void Update()
+    {
+        if(PlayerPrefs.GetInt(namaPlayerPreferes) >= JumlahPlayerPrefers)
+        {
+            Winner();
+        }
 
 
+    }
+    #endregion
+
+    #region digunakan tidak
     private void OnEnable()
     {
+        GameOver();
+
         if (PlayerPrefs.GetInt(namaPlayerPreferes) <= JumlahPlayerPrefers && waktuhabis == false)
         {
             panelMenang.SetActive(false);
@@ -59,31 +84,84 @@ public class UI_InteractionController : MonoBehaviour
         inputActionReference_UISwitcher.action.performed -= ActivateUIMode;
 
     }
+    #endregion
 
-    private void Start()
+
+
+    #region Custom Script
+    void GameOver()
     {
-        //Deactivating UI Canvas Gameobject by default
-        UICanvasGameobject.SetActive(false);
-        waktuhabis = false;
-        //Deactivating UI Controller by default
-        UIController.GetComponent<XRRayInteractor>().enabled = false;
-        UIController.GetComponent<XRInteractorLineVisual>().enabled = false;
+        if (PlayerPrefs.GetFloat("gameover") == 0)
+        {
+            waktuhabis = false;
+        }
+        else
+        {
+            waktuhabis = true;
+        }
     }
+    
 
-    private void Update()
+    public void GameOverr()
     {
 
-
-
+        GameOver();
+        if (PlayerPrefs.GetInt(namaPlayerPreferes) <= JumlahPlayerPrefers && waktuhabis == false)
+        {
+            panelMenang.SetActive(false);
+            panelkalah.SetActive(false);
+            panelPause.SetActive(true);
+        }
+        else if (PlayerPrefs.GetInt(namaPlayerPreferes) >= JumlahPlayerPrefers && waktuhabis == false)
+        {
+            panelMenang.SetActive(true);
+            panelkalah.SetActive(false);
+            panelPause.SetActive(false);
+        }
+        else
+        {
+            panelMenang.SetActive(false);
+            panelkalah.SetActive(true);
+            panelPause.SetActive(false);
+        }
+        inputActionReference_UISwitcher.action.performed += ActivateUIMode;
     }
+    public void Winner()
+    {
+        //PlayerPrefs.SetInt(namaPlayerPreferes, JumlahPlayerPrefers);
 
 
+        if (PlayerPrefs.GetInt(namaPlayerPreferes) <= JumlahPlayerPrefers && waktuhabis == false)
+        {
+            panelMenang.SetActive(false);
+            panelkalah.SetActive(false);
+            panelPause.SetActive(true);
+        }
+        else if (PlayerPrefs.GetInt(namaPlayerPreferes) >= JumlahPlayerPrefers && waktuhabis == false)
+        {
+            panelMenang.SetActive(true);
+            panelkalah.SetActive(false);
+            panelPause.SetActive(false);
+        }
+        else
+        {
+            panelMenang.SetActive(false);
+            panelkalah.SetActive(true);
+            panelPause.SetActive(false);
+        }
+        inputActionReference_UISwitcher.action.performed += ActivateUIMode;
+    }
+    #endregion
+
+
+
+    #region UI Activate Mode
     /// <summary>
     /// This method is called when the player presses UI Switcher Button which is the input action defined in Default Input Actions.
     /// When it is called, UI interaction mode is switched on and off according to the previous state of the UI Canvas.
     /// </summary>
     /// <param name="obj"></param>
-    private void ActivateUIMode(InputAction.CallbackContext obj)
+    public void ActivateUIMode(InputAction.CallbackContext obj)
     {
         if (!isUICanvasActive)
         {
@@ -122,4 +200,8 @@ public class UI_InteractionController : MonoBehaviour
         }
 
     }
+
+    #endregion
+
+
 }

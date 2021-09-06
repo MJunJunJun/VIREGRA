@@ -5,6 +5,8 @@ using UnityEngine;
 public class managementKelengkapanBadan_AmbilHZ : MonoBehaviour
 {
     public string nama;
+    //public int JumlahAmbilbarang;
+    //public UI_InteractionController managementMenang;
     private void Start()
     {
         PlayerPrefs.SetInt("level1", 0);
@@ -12,15 +14,22 @@ public class managementKelengkapanBadan_AmbilHZ : MonoBehaviour
     public GameObject handsanitizerasli, handsanitizertubuh;
     private void OnTriggerEnter(Collider other)
     {
+        int a = PlayerPrefs.GetInt("level1");
+        a++;
         if (other.gameObject.name == nama)
         {
             Debug.Log("HEH!");
-            int a = PlayerPrefs.GetInt("level1");
-            a++;
+            
             PlayerPrefs.SetInt("level1", a);
             handsanitizerasli.SetActive(false);
             handsanitizertubuh.SetActive(true);
         }
+        /*if (a >= 0)
+        {
+            managementMenang.Winner();
+            
+            
+        }*/
         
     }
 
