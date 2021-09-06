@@ -38,7 +38,7 @@ public class TImer : MonoBehaviour
             else
             {
                 PlayerPrefs.SetFloat("gameover", 1);
-                kontrolUI.GameOverr();
+                kontrolUI.waktuhabis=true;
             }
             
         }

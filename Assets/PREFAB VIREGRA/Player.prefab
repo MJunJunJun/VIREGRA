@@ -1017,6 +1017,7 @@ MonoBehaviour:
   panelPause: {fileID: 3919267853452245858}
   panelkalah: {fileID: 8990737096385496436}
   waktuhabis: 0
+  win: 0
 --- !u!1 &3869933271841694275
 GameObject:
   m_ObjectHideFlags: 0
@@ -2423,6 +2424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nama: 
+  managementMenang: {fileID: 0}
   handsanitizerasli: {fileID: 0}
   handsanitizertubuh: {fileID: 0}
 --- !u!1 &3869933273009436905
@@ -2669,6 +2671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nama: Handsanitizer
+  managementMenang: {fileID: 0}
   handsanitizerasli: {fileID: 0}
   handsanitizertubuh: {fileID: 1126399251}
 --- !u!1 &3869933273206427250
@@ -2915,6 +2918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nama: Handsanitizer
+  managementMenang: {fileID: 0}
   handsanitizerasli: {fileID: 0}
   handsanitizertubuh: {fileID: 1126399251}
 --- !u!1 &3869933273286698793

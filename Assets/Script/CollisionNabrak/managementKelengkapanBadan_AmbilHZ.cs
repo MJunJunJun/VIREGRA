@@ -6,7 +6,7 @@ public class managementKelengkapanBadan_AmbilHZ : MonoBehaviour
 {
     public string nama;
     //public int JumlahAmbilbarang;
-    //public UI_InteractionController managementMenang;
+    public UI_InteractionController managementMenang;
     private void Start()
     {
         PlayerPrefs.SetInt("level1", 0);
@@ -14,6 +14,9 @@ public class managementKelengkapanBadan_AmbilHZ : MonoBehaviour
     public GameObject handsanitizerasli, handsanitizertubuh;
     private void OnTriggerEnter(Collider other)
     {
+        int b = managementMenang.JumlahPlayerPrefers;
+
+
         int a = PlayerPrefs.GetInt("level1");
         a++;
         if (other.gameObject.name == nama)
@@ -24,12 +27,11 @@ public class managementKelengkapanBadan_AmbilHZ : MonoBehaviour
             handsanitizerasli.SetActive(false);
             handsanitizertubuh.SetActive(true);
         }
-        /*if (a >= 0)
+
+        if (a >= b)
         {
-            managementMenang.Winner();
-            
-            
-        }*/
+            managementMenang.win = true;
+        }
         
     }
 

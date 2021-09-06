@@ -28,6 +28,7 @@ public class UI_InteractionController : MonoBehaviour
     public string namaPlayerPreferes;
     public GameObject panelMenang, panelPause, panelkalah;
     public bool waktuhabis;//bernilai true juka waktu habis
+    public bool win;
 
     #region Unity Method
     private void Start()
@@ -44,114 +45,32 @@ public class UI_InteractionController : MonoBehaviour
 
     private void Update()
     {
-        if(PlayerPrefs.GetInt(namaPlayerPreferes) >= JumlahPlayerPrefers)
+        if (win)
         {
-            Winner();
+            inputActionReference_UISwitcher.action.performed += ActivateUIMode;
         }
-
+        if (waktuhabis)
+        {
+            inputActionReference_UISwitcher.action.performed += ActivateUIMode;
+        }
 
     }
     #endregion
 
     #region digunakan tidak
     private void OnEnable()
-    {
-        GameOver();
-
-        if (PlayerPrefs.GetInt(namaPlayerPreferes) <= JumlahPlayerPrefers && waktuhabis == false)
-        {
-            panelMenang.SetActive(false);
-            panelkalah.SetActive(false);
-            panelPause.SetActive(true);
-        }
-        else if (PlayerPrefs.GetInt(namaPlayerPreferes) >= JumlahPlayerPrefers && waktuhabis == false)
-        {
-            panelMenang.SetActive(true);
-            panelkalah.SetActive(false);
-            panelPause.SetActive(false);
-        }
-        else
-        {
-            panelMenang.SetActive(false);
-            panelkalah.SetActive(true);
-            panelPause.SetActive(false);
-        }
+    {      
         inputActionReference_UISwitcher.action.performed += ActivateUIMode;
-
     }
     private void OnDisable()
     {
         inputActionReference_UISwitcher.action.performed -= ActivateUIMode;
-
     }
     #endregion
 
 
 
-    #region Custom Script
-    void GameOver()
-    {
-        if (PlayerPrefs.GetFloat("gameover") == 0)
-        {
-            waktuhabis = false;
-        }
-        else
-        {
-            waktuhabis = true;
-        }
-    }
     
-
-    public void GameOverr()
-    {
-
-        GameOver();
-        if (PlayerPrefs.GetInt(namaPlayerPreferes) <= JumlahPlayerPrefers && waktuhabis == false)
-        {
-            panelMenang.SetActive(false);
-            panelkalah.SetActive(false);
-            panelPause.SetActive(true);
-        }
-        else if (PlayerPrefs.GetInt(namaPlayerPreferes) >= JumlahPlayerPrefers && waktuhabis == false)
-        {
-            panelMenang.SetActive(true);
-            panelkalah.SetActive(false);
-            panelPause.SetActive(false);
-        }
-        else
-        {
-            panelMenang.SetActive(false);
-            panelkalah.SetActive(true);
-            panelPause.SetActive(false);
-        }
-        inputActionReference_UISwitcher.action.performed += ActivateUIMode;
-    }
-    public void Winner()
-    {
-        //PlayerPrefs.SetInt(namaPlayerPreferes, JumlahPlayerPrefers);
-
-
-        if (PlayerPrefs.GetInt(namaPlayerPreferes) <= JumlahPlayerPrefers && waktuhabis == false)
-        {
-            panelMenang.SetActive(false);
-            panelkalah.SetActive(false);
-            panelPause.SetActive(true);
-        }
-        else if (PlayerPrefs.GetInt(namaPlayerPreferes) >= JumlahPlayerPrefers && waktuhabis == false)
-        {
-            panelMenang.SetActive(true);
-            panelkalah.SetActive(false);
-            panelPause.SetActive(false);
-        }
-        else
-        {
-            panelMenang.SetActive(false);
-            panelkalah.SetActive(true);
-            panelPause.SetActive(false);
-        }
-        inputActionReference_UISwitcher.action.performed += ActivateUIMode;
-    }
-    #endregion
 
 
 
@@ -163,6 +82,25 @@ public class UI_InteractionController : MonoBehaviour
     /// <param name="obj"></param>
     public void ActivateUIMode(InputAction.CallbackContext obj)
     {
+        if (win==false && waktuhabis == false)
+        {
+            panelMenang.SetActive(false);
+            panelkalah.SetActive(false);
+            panelPause.SetActive(true);
+        }
+        else if (win==true && waktuhabis == false)
+        {
+            panelMenang.SetActive(true);
+            panelkalah.SetActive(false);
+            panelPause.SetActive(false);
+        }
+        else
+        {
+            panelMenang.SetActive(false);
+            panelkalah.SetActive(true);
+            panelPause.SetActive(false);
+        }
+
         if (!isUICanvasActive)
         {
             isUICanvasActive = true;
