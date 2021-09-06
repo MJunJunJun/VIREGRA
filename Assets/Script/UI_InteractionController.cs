@@ -45,26 +45,46 @@ public class UI_InteractionController : MonoBehaviour
 
     private void Update()
     {
-        if (win)
+        /*if (win)
         {
-            inputActionReference_UISwitcher.action.performed += ActivateUIMode;
+            //inputActionReference_UISwitcher.action.performed += ActivateUIMode;
+             OnEnable();
         }
         if (waktuhabis)
         {
-            inputActionReference_UISwitcher.action.performed += ActivateUIMode;
-        }
+            OnEnable();
+            //inputActionReference_UISwitcher.action.performed += ActivateUIMode;
+        }*/
 
     }
     #endregion
 
     #region digunakan tidak
-    private void OnEnable()
+    public void OnEnable()
     {      
         inputActionReference_UISwitcher.action.performed += ActivateUIMode;
+        if (win || waktuhabis)
+        {
+            Time.timeScale = 0;
+        }
+        else
+        {
+            Time.timeScale = 0;
+        }
+        
     }
-    private void OnDisable()
+    public void OnDisable()
     {
         inputActionReference_UISwitcher.action.performed -= ActivateUIMode;
+        Time.timeScale = 0;
+        if (win || waktuhabis)
+        {
+            Time.timeScale = 0;
+        }
+        else
+        {
+            Time.timeScale = 1;
+        }
     }
     #endregion
 
@@ -84,11 +104,13 @@ public class UI_InteractionController : MonoBehaviour
     {
         if (win==false && waktuhabis == false)
         {
-            panelMenang.SetActive(false);
-            panelkalah.SetActive(false);
             panelPause.SetActive(true);
         }
-        else if (win==true && waktuhabis == false)
+        else
+        {
+            panelPause.SetActive(false);
+        }
+        /*else if (win==true && waktuhabis == false)
         {
             panelMenang.SetActive(true);
             panelkalah.SetActive(false);
@@ -99,7 +121,7 @@ public class UI_InteractionController : MonoBehaviour
             panelMenang.SetActive(false);
             panelkalah.SetActive(true);
             panelPause.SetActive(false);
-        }
+        }*/
 
         if (!isUICanvasActive)
         {

@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 
 public class TImer : MonoBehaviour
 {
+
     public UI_InteractionController kontrolUI;
 
     float detik = 0f;
@@ -37,8 +38,13 @@ public class TImer : MonoBehaviour
             }
             else
             {
+                menit = 0;
+                detik = 0;
                 PlayerPrefs.SetFloat("gameover", 1);
                 kontrolUI.waktuhabis=true;
+                //kontrolUI.OnEnable();
+                kontrolUI.panelkalah.SetActive(true);
+
             }
             
         }
