@@ -31,6 +31,7 @@ public class managementKelengkapanBadan_AmbilHZ : MonoBehaviour
                 managementMenang.win = true;
                 //managementMenang.OnEnable();
                 managementMenang.panelMenang.SetActive(true);
+                managementMenang.UIMODE();
                 //managementMenang.ActivateUIMode();
             }
         }

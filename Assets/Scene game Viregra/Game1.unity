@@ -487,6 +487,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &690650534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2035028702, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
+  m_PrefabInstance: {fileID: 8082380818986321324}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &962369888
 GameObject:
   m_ObjectHideFlags: 0
@@ -2873,6 +2878,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 175997869, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
+      propertyPath: tombol
+      value: 
+      objectReference: {fileID: 690650534}
+    - target: {fileID: 175997869, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
+      propertyPath: adaPetunjuk
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035028702, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1501962001092310170, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
       propertyPath: m_Name
       value: Area Player
