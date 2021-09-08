@@ -1648,6 +1648,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama: Head
   managementMenang: {fileID: 145250349}
+  namaLevel: level1
   handsanitizerasli: {fileID: 4159481904554940166}
   handsanitizertubuh: {fileID: 9015428898248885991}
 --- !u!114 &4159481904554940168
@@ -2150,6 +2151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama: Head
   managementMenang: {fileID: 145250349}
+  namaLevel: level1
   handsanitizerasli: {fileID: 5903838622086114127}
   handsanitizertubuh: {fileID: 458240820}
 --- !u!114 &5903838622086114129
@@ -2871,49 +2873,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 650661917, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 650661917, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 650661917, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 145250349}
-    - target: {fileID: 650661917, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 650661917, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: selesaiPetunjuk
-      objectReference: {fileID: 0}
-    - target: {fileID: 650661917, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI_InteractionController, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 650661917, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 1062824545, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1331716288, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1501962001092310170, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
       propertyPath: m_Name
       value: Area Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 5016624359191521024, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
-      propertyPath: petunjukPenggunaan
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8082380818986321320, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
       propertyPath: handsanitizerasli

@@ -20,27 +20,37 @@ public class UI_InteractionController : MonoBehaviour
     [SerializeField]
     Vector3 positionOffsetForUICanvasGameobject;
     public int JumlahPlayerPrefers;
+    public int jumlahMisiSekarang;
     public string namaPlayerPreferes;
     public GameObject panelMenang, panelPause, panelkalah;
     public bool waktuhabis;//bernilai true juka waktu habis
     public bool win;
     public ActionBasedControllerManager kontrolTanganKanan;
     public bool petunjukPenggunaan;
+    public bool adapetunjuk;
+
 
     #region Unity Method
     private void Start()
     {
+        jumlahMisiSekarang = 0;
         //Deactivating UI Canvas Gameobject by default
         UICanvasGameobject.SetActive(false);
         waktuhabis = false;
+        panelkalah.SetActive(false);
+        panelMenang.SetActive(false);
         //Deactivating UI Controller by default
         UIController.GetComponent<XRRayInteractor>().enabled = false;
         UIController.GetComponent<XRInteractorLineVisual>().enabled = false;
-        PlayerPrefs.GetInt(namaPlayerPreferes, JumlahPlayerPrefers);
+        //PlayerPrefs.GetInt(namaPlayerPreferes, JumlahPlayerPrefers);
         Time.timeScale = 1;
         if (petunjukPenggunaan)
         {
             Time.timeScale = 0;
+        }
+        if (adapetunjuk)
+        {
+            UIMODE();
         }
 
     }
