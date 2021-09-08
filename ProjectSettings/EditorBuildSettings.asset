@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/IRONHEAD Games/Scenes/HomeScene.unity
     guid: 9fac3bb0f119ea944a28e20d8f159e08
   - enabled: 1
-    path: Assets/Game1.unity
+    path: Assets/Scene game Viregra/Game1.unity
     guid: d5e140bb7bd5b274cbc6db1534771a73
   - enabled: 1
     path: Assets/test Collision.unity

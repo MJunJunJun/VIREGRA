@@ -2213,6 +2213,8 @@ MonoBehaviour:
   panelkalah: {fileID: 800651753}
   waktuhabis: 0
   win: 0
+  kontrolTanganKanan: {fileID: 0}
+  petunjukPenggunaan: 0
 --- !u!1 &3869933271841694275
 GameObject:
   m_ObjectHideFlags: 0

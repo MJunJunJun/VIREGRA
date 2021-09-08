@@ -10,18 +10,13 @@ public class UI_InteractionController : MonoBehaviour
 {
     [SerializeField]
     GameObject UIController;
-
     [SerializeField]
     GameObject BaseController;
-
     [SerializeField]
     InputActionReference inputActionReference_UISwitcher;
-
     bool isUICanvasActive = false;
-
     [SerializeField]
     GameObject UICanvasGameobject;
-
     [SerializeField]
     Vector3 positionOffsetForUICanvasGameobject;
     public int JumlahPlayerPrefers;
@@ -29,6 +24,8 @@ public class UI_InteractionController : MonoBehaviour
     public GameObject panelMenang, panelPause, panelkalah;
     public bool waktuhabis;//bernilai true juka waktu habis
     public bool win;
+    public ActionBasedControllerManager kontrolTanganKanan;
+    public bool petunjukPenggunaan;
 
     #region Unity Method
     private void Start()
@@ -40,6 +37,11 @@ public class UI_InteractionController : MonoBehaviour
         UIController.GetComponent<XRRayInteractor>().enabled = false;
         UIController.GetComponent<XRInteractorLineVisual>().enabled = false;
         PlayerPrefs.GetInt(namaPlayerPreferes, JumlahPlayerPrefers);
+        Time.timeScale = 1;
+        if (petunjukPenggunaan)
+        {
+            Time.timeScale = 0;
+        }
 
     }
 
@@ -63,28 +65,14 @@ public class UI_InteractionController : MonoBehaviour
     public void OnEnable()
     {      
         inputActionReference_UISwitcher.action.performed += ActivateUIMode;
-        if (win || waktuhabis)
-        {
-            Time.timeScale = 0;
-        }
-        else
-        {
-            Time.timeScale = 0;
-        }
-        
+        //inputActionReference_UISwitcher.action.performed += pauseGame;
+
     }
     public void OnDisable()
     {
         inputActionReference_UISwitcher.action.performed -= ActivateUIMode;
-        Time.timeScale = 0;
-        if (win || waktuhabis)
-        {
-            Time.timeScale = 0;
-        }
-        else
-        {
-            Time.timeScale = 1;
-        }
+        //inputActionReference_UISwitcher.action.performed -= pauseGame;
+        
     }
     #endregion
 
@@ -102,63 +90,102 @@ public class UI_InteractionController : MonoBehaviour
     /// <param name="obj"></param>
     public void ActivateUIMode(InputAction.CallbackContext obj)
     {
-        if (win==false && waktuhabis == false)
-        {
-            panelPause.SetActive(true);
-        }
-        else
-        {
-            panelPause.SetActive(false);
-        }
-        /*else if (win==true && waktuhabis == false)
-        {
-            panelMenang.SetActive(true);
-            panelkalah.SetActive(false);
-            panelPause.SetActive(false);
-        }
-        else
-        {
-            panelMenang.SetActive(false);
-            panelkalah.SetActive(true);
-            panelPause.SetActive(false);
-        }*/
 
-        if (!isUICanvasActive)
-        {
+        UIMODE();
+    }
+
+    public void selesaiPetunjuk()
+    {
+        petunjukPenggunaan = false;
+        Time.timeScale = 1;
+        UIMODE();
+    }
+
+
+    public void UIMODE()
+    {
+        
+           
+           
+                if (win == false && waktuhabis == false)
+                {
+                    panelPause.SetActive(true);
+                }
+                else
+                {
+                    panelPause.SetActive(false);
+                }
+            
+
+
+            if (!isUICanvasActive)
+            {
+                if (!petunjukPenggunaan)
+                {
+                    if (win || waktuhabis)
+                    {
+                        Time.timeScale = 0;
+                    }
+                    else
+                    {
+                        Time.timeScale = 0;
+                    }
+                UICanvasGameobject.SetActive(true);
+            }
             isUICanvasActive = true;
 
-            //Activating UI Controller by enabling its XR Ray Interactor and XR Interactor Line Visual
-            UIController.GetComponent<XRRayInteractor>().enabled = true;
-            UIController.GetComponent<XRInteractorLineVisual>().enabled = true;
+            kontrolTanganKanan.enabled = false;
 
-            //Deactivating Base Controller by disabling its XR Direct Interactor
-            BaseController.GetComponent<XRDirectInteractor>().enabled = false;
+                
 
-            //Adjusting the transform of the UI Canvas Gameobject according to the VR Player transform
-            Vector3 positionVec = new Vector3(UIController.transform.position.x, positionOffsetForUICanvasGameobject.y, UIController.transform.position.z);
-            Vector3 directionVec = UIController.transform.forward;
-            directionVec.y = 0f;
-            UICanvasGameobject.transform.position = positionVec + positionOffsetForUICanvasGameobject.magnitude * directionVec;
-            UICanvasGameobject.transform.rotation = Quaternion.LookRotation(directionVec);
+                //Activating UI Controller by enabling its XR Ray Interactor and XR Interactor Line Visual
+                UIController.GetComponent<XRRayInteractor>().enabled = true;
+                UIController.GetComponent<XRInteractorLineVisual>().enabled = true;
 
-            //Activating the UI Canvas Gameobject
-            UICanvasGameobject.SetActive(true);
-        }
-        else
-        {
+                //Deactivating Base Controller by disabling its XR Direct Interactor
+                BaseController.GetComponent<XRDirectInteractor>().enabled = false;
+
+                //Adjusting the transform of the UI Canvas Gameobject according to the VR Player transform
+                Vector3 positionVec = new Vector3(UIController.transform.position.x, positionOffsetForUICanvasGameobject.y, UIController.transform.position.z);
+                Vector3 directionVec = UIController.transform.forward;
+                directionVec.y = 0f;
+                UICanvasGameobject.transform.position = positionVec + positionOffsetForUICanvasGameobject.magnitude * directionVec;
+                UICanvasGameobject.transform.rotation = Quaternion.LookRotation(directionVec);
+
+                //Activating the UI Canvas Gameobject
+                
+            }
+            else
+            {
+                if (!petunjukPenggunaan)
+                {
+                    if (win || waktuhabis)
+                    {
+                        Time.timeScale = 0;
+                    }
+                    else
+                    {
+                        Time.timeScale = 1;
+                    }
+                UICanvasGameobject.SetActive(false);
+            }
             isUICanvasActive = false;
+            kontrolTanganKanan.enabled = true;
 
-            //De-Activating UI Controller by enabling its XR Ray Interactor and XR Interactor Line Visual
-            UIController.GetComponent<XRRayInteractor>().enabled = false;
-            UIController.GetComponent<XRInteractorLineVisual>().enabled = false;
+                
 
-            //Activating Base Controller by disabling its XR Direct Interactor
-            BaseController.GetComponent<XRDirectInteractor>().enabled = true;
+                //De-Activating UI Controller by enabling its XR Ray Interactor and XR Interactor Line Visual
+                UIController.GetComponent<XRRayInteractor>().enabled = false;
+                UIController.GetComponent<XRInteractorLineVisual>().enabled = false;
 
-            //De-Activating the UI Canvas Gameobject
-            UICanvasGameobject.SetActive(false);
-        }
+                //Activating Base Controller by disabling its XR Direct Interactor
+                BaseController.GetComponent<XRDirectInteractor>().enabled = true;
 
+                //De-Activating the UI Canvas Gameobject
+                
+            }
+        
+        
     }
 
     #endregion
