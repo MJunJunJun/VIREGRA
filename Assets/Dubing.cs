@@ -9,6 +9,7 @@ public class Dubing : MonoBehaviour
     public GameObject suaraDubing;
     public bool adaPetunjuk;
     public GameObject tombol;
+    public GameObject bgSound;
 
     private void Start()
     {
@@ -26,6 +27,7 @@ public class Dubing : MonoBehaviour
             if (adaPetunjuk)
             {
                 tombol.SetActive(true);
+                bgSound.SetActive(true);
             }
             suaraDubing.SetActive(false);
         }
