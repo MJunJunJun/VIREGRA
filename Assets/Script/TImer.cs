@@ -10,7 +10,7 @@ public class TImer : MonoBehaviour
 
     public UI_InteractionController kontrolUI;
 
-    float detik = 0f;
+    public float detik = 0f;
     public float detikAwal;
     public float menit;
 
