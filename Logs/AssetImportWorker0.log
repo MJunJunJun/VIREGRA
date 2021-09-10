@@ -1170,3 +1170,156 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4560.696446 seconds.
+  path: Assets/Scene game Viregra/Game1.unity
+  artifactKey: Guid(d5e140bb7bd5b274cbc6db1534771a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene game Viregra/Game1.unity using Guid(d5e140bb7bd5b274cbc6db1534771a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5366d289f19a0c3088679754398e340f') in 0.028266 seconds 
+  Import took 0.032614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.774119 seconds.
+  path: Assets/Scene game Viregra/Game1 1.unity
+  artifactKey: Guid(dbf565759529a4c46b5794f1bb5b64c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene game Viregra/Game1 1.unity using Guid(dbf565759529a4c46b5794f1bb5b64c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a27221df759e9652e41778e029df93') in 0.004800 seconds 
+  Import took 0.008293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.074451 seconds.
+  path: Assets/Scene game Viregra/Game1 Backup.unity
+  artifactKey: Guid(dbf565759529a4c46b5794f1bb5b64c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene game Viregra/Game1 Backup.unity using Guid(dbf565759529a4c46b5794f1bb5b64c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487a3bb73c89c26f7479182bbcf38411') in 0.005525 seconds 
+  Import took 0.009041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 337.669681 seconds.
+  path: Assets/3d ASET VIREGRA/RUANG_MAKAN/model.blend
+  artifactKey: Guid(4eeda0eab1ebf844a8ac7e73ebe6e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d ASET VIREGRA/RUANG_MAKAN/model.blend using Guid(4eeda0eab1ebf844a8ac7e73ebe6e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4f39693b057988dcbd746ed8464f77') in 0.799956 seconds 
+  Import took 0.804999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 523.320631 seconds.
+  path: Assets/Scene game Viregra/Game1.unity
+  artifactKey: Guid(d5e140bb7bd5b274cbc6db1534771a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene game Viregra/Game1.unity using Guid(d5e140bb7bd5b274cbc6db1534771a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146ff124d67deb65bc505dab659e9a80') in 0.003688 seconds 
+  Import took 0.008661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.189561 seconds.
+  path: Assets/Scene game Viregra/Game1 Backup.unity
+  artifactKey: Guid(dbf565759529a4c46b5794f1bb5b64c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene game Viregra/Game1 Backup.unity using Guid(dbf565759529a4c46b5794f1bb5b64c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66d4744cab9ba51d406b877f6ba1999') in 0.002250 seconds 
+  Import took 0.005826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.216682 seconds.
+  path: Assets/Scene game Viregra/Game1 Backup 1.unity
+  artifactKey: Guid(54e2c888fc50a294d9e9f9b2fba1a044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene game Viregra/Game1 Backup 1.unity using Guid(54e2c888fc50a294d9e9f9b2fba1a044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdceb18870ea82dcc85234fe30445713') in 0.005826 seconds 
+  Import took 0.009434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.280900 seconds.
+  path: Assets/Scene game Viregra/Game1.unity
+  artifactKey: Guid(54e2c888fc50a294d9e9f9b2fba1a044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene game Viregra/Game1.unity using Guid(54e2c888fc50a294d9e9f9b2fba1a044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7708d91d5f7deb60d2b755e3fc4a6ef5') in 0.002459 seconds 
+  Import took 0.006186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.642597 seconds.
+  path: Assets/Scene game Viregra/Game2.unity
+  artifactKey: Guid(01618fc918153c74b894bb00d7e1cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene game Viregra/Game2.unity using Guid(01618fc918153c74b894bb00d7e1cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c4080a1d25eb3419ff4ba3a1625f3d') in 0.006129 seconds 
+  Import took 0.010215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Scene game Viregra/Game2.unity
+  artifactKey: Guid(01618fc918153c74b894bb00d7e1cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene game Viregra/Game2.unity using Guid(01618fc918153c74b894bb00d7e1cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c4080a1d25eb3419ff4ba3a1625f3d') in 0.002299 seconds 
+  Import took 0.005418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 308.503807 seconds.
+  path: Assets/Scene game Viregra/Game2.unity
+  artifactKey: Guid(01618fc918153c74b894bb00d7e1cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene game Viregra/Game2.unity using Guid(01618fc918153c74b894bb00d7e1cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffd23065a85c7017a10f670306c70c5') in 0.002826 seconds 
+  Import took 0.007456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.175505 seconds.
+  path: Assets/Scene game Viregra/Game2.unity
+  artifactKey: Guid(01618fc918153c74b894bb00d7e1cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene game Viregra/Game2.unity using Guid(01618fc918153c74b894bb00d7e1cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1407c55a916b44223990cdc907be2dc1') in 0.002546 seconds 
+  Import took 0.006089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 176.855334 seconds.
+  path: Assets/PREFAB VIREGRA/Area Player.prefab
+  artifactKey: Guid(cd13159f4f2c20d4d9b10d2f269c6a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB VIREGRA/Area Player.prefab using Guid(cd13159f4f2c20d4d9b10d2f269c6a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75e38dcd1fc3f21f2ba8a3c0d073267') in 0.109509 seconds 
+  Import took 0.114148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.902776 seconds.
+  path: Assets/PREFAB VIREGRA/faceShield.prefab
+  artifactKey: Guid(34b5549113285a148923b34102d7bcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB VIREGRA/faceShield.prefab using Guid(34b5549113285a148923b34102d7bcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793d329096d930089045edbc9af9e45c') in 0.046370 seconds 
+  Import took 0.050429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/PREFAB VIREGRA/faceShield.prefab
+  artifactKey: Guid(34b5549113285a148923b34102d7bcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB VIREGRA/faceShield.prefab using Guid(34b5549113285a148923b34102d7bcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793d329096d930089045edbc9af9e45c') in 0.009744 seconds 
+  Import took 0.013141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.937589 seconds.
+  path: Assets/Scene game Viregra/Game2.unity
+  artifactKey: Guid(01618fc918153c74b894bb00d7e1cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene game Viregra/Game2.unity using Guid(01618fc918153c74b894bb00d7e1cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f144ff51f60662f2fab21b8f4f852351') in 0.002573 seconds 
+  Import took 0.006572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 185.288944 seconds.
+  path: Assets/Scene game Viregra/Game2.unity
+  artifactKey: Guid(01618fc918153c74b894bb00d7e1cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene game Viregra/Game2.unity using Guid(01618fc918153c74b894bb00d7e1cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f235d83800352ab9e6db8500dfb34e27') in 0.002361 seconds 
+  Import took 0.006380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 321.713742 seconds.
+  path: Assets/Scene game Viregra/game3.unity
+  artifactKey: Guid(7f23d98540e35134794254ddca197f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene game Viregra/game3.unity using Guid(7f23d98540e35134794254ddca197f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a65e124d2ddbef8cf600a7406bef8f2') in 0.006414 seconds 
+  Import took 0.012136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.595548 seconds.
+  path: Assets/Scene game Viregra/Game2.unity
+  artifactKey: Guid(01618fc918153c74b894bb00d7e1cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene game Viregra/Game2.unity using Guid(01618fc918153c74b894bb00d7e1cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa148d766e5017e9e79b646be795c32') in 0.002283 seconds 
+  Import took 0.006643 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
