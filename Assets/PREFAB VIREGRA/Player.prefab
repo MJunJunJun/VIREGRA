@@ -2208,6 +2208,7 @@ MonoBehaviour:
   UICanvasGameobject: {fileID: 3869933272014954675}
   positionOffsetForUICanvasGameobject: {x: 0, y: 1.5, z: 1.5}
   JumlahPlayerPrefers: 3
+  jumlahMisiSekarang: 0
   namaPlayerPreferes: level1
   panelMenang: {fileID: 520062036}
   panelPause: {fileID: 3919267853452245858}
@@ -5129,6 +5130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   kontrolUI: {fileID: 3869933271663959652}
+  detik: 0
   detikAwal: 59
   menit: 2
   textHitungMundur: {fileID: 5354572307299930034}
