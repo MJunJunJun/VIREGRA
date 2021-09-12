@@ -7,7 +7,20 @@ public class managementKelengkapanBadan_AmbilHZ : MonoBehaviour
     public string nama;
     //public int JumlahAmbilbarang;
     public UI_InteractionController managementMenang;
+    public level2 managementLevel2;
     public string namaLevel;
+    public bool level2,piringA,piringB;
+    //public GameObject apleA, ApleB;
+    public Vector3 lokApleA, lokApleB;
+    //public GrabLevel2 grabLevel2;
+    private void Awake()
+    {
+        if (level2)
+        {
+            lokApleA = handsanitizerasli.transform.position;
+            lokApleB = handsanitizertubuh.transform.position;
+        }
+    }
     private void Start()
     {
         PlayerPrefs.SetInt(namaLevel, 0);
@@ -34,9 +47,35 @@ public class managementKelengkapanBadan_AmbilHZ : MonoBehaviour
                 managementMenang.UIMODE();
                 //managementMenang.ActivateUIMode();
             }
+            //level2
+            if (level2 && piringA )
+            {
+                int A = managementLevel2.piringA;
+                A++;
+                managementLevel2.piringA = A;
+                int B = managementLevel2.piringB;
+                B--;
+                managementLevel2.piringA = B;
+                //handsanitizertubuh.transform.position = lokApleB;
+               
+            }
+            if (level2&& piringB)
+            {
+                int B = managementLevel2.piringB;
+                B++;
+                managementLevel2.piringA = B;
+
+                int A = managementLevel2.piringA;
+                A--;
+                managementLevel2.piringA = A;
+
+                //handsanitizerasli.transform.position = lokApleA;
+            }
         }
 
         
+
+
     }
 
 

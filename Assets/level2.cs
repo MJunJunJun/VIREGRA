@@ -4,27 +4,21 @@ using UnityEngine;
 
 public class level2 : MonoBehaviour
 {
-    public GameObject apleA, apleB;
-    Vector3 lokApleA, lokApleB;
-    Vector3 rotApleA, rotApleB;
-    public bool aktifA, aktifB;
+    public int piringA, piringB;
+    public UI_InteractionController controlMenang;
     // Start is called before the first frame update
     void Start()
     {
-        getValue();        
+                
     }
 
     void getValue()
     {
-        if (aktifA)
+        if (piringA == piringB)
         {
-            lokApleA = apleA.transform.position;
-            rotApleA = apleA.transform.localEulerAngles;
-        }
-        if (aktifB)
-        {
-            lokApleB = apleB.transform.position;
-            rotApleB = apleB.transform.localEulerAngles;
+            controlMenang.win=true;
+            controlMenang.panelMenang.SetActive(true);
+            controlMenang.UIMODE();
         }
 
     }

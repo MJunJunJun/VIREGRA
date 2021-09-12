@@ -1648,7 +1648,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama: Head
   managementMenang: {fileID: 145250349}
+  managementLevel2: {fileID: 0}
   namaLevel: level1
+  level2: 0
+  piringA: 0
+  piringB: 0
+  lokApleA: {x: 0, y: 0, z: 0}
+  lokApleB: {x: 0, y: 0, z: 0}
   handsanitizerasli: {fileID: 4159481904554940166}
   handsanitizertubuh: {fileID: 9015428898248885991}
 --- !u!114 &4159481904554940168
@@ -2151,7 +2157,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama: Head
   managementMenang: {fileID: 145250349}
+  managementLevel2: {fileID: 0}
   namaLevel: level1
+  level2: 0
+  piringA: 0
+  piringB: 0
+  lokApleA: {x: 0, y: 0, z: 0}
+  lokApleB: {x: 0, y: 0, z: 0}
   handsanitizerasli: {fileID: 5903838622086114127}
   handsanitizertubuh: {fileID: 458240820}
 --- !u!114 &5903838622086114129
@@ -2873,9 +2885,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 175997869, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
+      propertyPath: portal
+      value: 
+      objectReference: {fileID: 281153839}
+    - target: {fileID: 175997869, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
+      propertyPath: managementTeleportKetikaDubingSelesai
+      value: 
+      objectReference: {fileID: 8082380818986321325}
     - target: {fileID: 1501962001092310170, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
       propertyPath: m_Name
       value: Area Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016624360666024778, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.856
       objectReference: {fileID: 0}
     - target: {fileID: 8082380818986321320, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
       propertyPath: handsanitizerasli
@@ -2931,6 +2955,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
+--- !u!114 &8082380818986321325 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5016624360145079465, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
+  m_PrefabInstance: {fileID: 8082380818986321324}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!23 &8102382927593667961
 MeshRenderer:
   m_ObjectHideFlags: 0

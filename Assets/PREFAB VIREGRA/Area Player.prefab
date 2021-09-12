@@ -50,6 +50,8 @@ MonoBehaviour:
   adaPetunjuk: 1
   tombol: {fileID: 2035028702}
   bgSound: {fileID: 941228380}
+  managementTeleportKetikaDubingSelesai: {fileID: 0}
+  portal: {fileID: 0}
 --- !u!82 &175997870
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3796,7 +3798,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama: Handsanitizer
   managementMenang: {fileID: 5016624359191521024}
+  managementLevel2: {fileID: 0}
   namaLevel: level1
+  level2: 0
+  piringA: 0
+  piringB: 0
+  lokApleA: {x: 0, y: 0, z: 0}
+  lokApleB: {x: 0, y: 0, z: 0}
   handsanitizerasli: {fileID: 0}
   handsanitizertubuh: {fileID: 8082380818866177143}
 --- !u!1 &5016624360666024776
@@ -4702,7 +4710,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama: Handsanitizer
   managementMenang: {fileID: 5016624359191521024}
+  managementLevel2: {fileID: 0}
   namaLevel: level1
+  level2: 0
+  piringA: 0
+  piringB: 0
+  lokApleA: {x: 0, y: 0, z: 0}
+  lokApleB: {x: 0, y: 0, z: 0}
   handsanitizerasli: {fileID: 0}
   handsanitizertubuh: {fileID: 8082380818866177143}
 --- !u!1 &5066105176036770310

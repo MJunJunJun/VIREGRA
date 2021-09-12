@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class Dubing : MonoBehaviour
 {
@@ -10,11 +11,16 @@ public class Dubing : MonoBehaviour
     public bool adaPetunjuk;
     public GameObject tombol;
     public GameObject bgSound;
+    public XRRayInteractor managementTeleportKetikaDubingSelesai;
+    public TeleportationArea portal;
 
     private void Start()
     {
         //kontrol.kontrolTanganKanan = false;
         kontrol.enabled = false;
+        Time.timeScale = 0;
+        managementTeleportKetikaDubingSelesai.enabled = false;
+        portal.enabled = false;
 
     }
 
@@ -28,8 +34,12 @@ public class Dubing : MonoBehaviour
             {
                 tombol.SetActive(true);
                 bgSound.SetActive(true);
+
             }
+            
+            Time.timeScale = 1;
             suaraDubing.SetActive(false);
+            portal.enabled = true;
         }
         
     }
