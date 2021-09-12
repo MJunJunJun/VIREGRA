@@ -39,6 +39,32 @@ public class managementKelengkapanBadan_AmbilHZ : MonoBehaviour
             handsanitizerasli.SetActive(false);
             handsanitizertubuh.SetActive(true);
 
+            if (level2 && piringA)
+            {
+                int A1 = managementLevel2.piringA;
+                A1--;
+                managementLevel2.piringA = A1;
+                int B1 = managementLevel2.piringB;
+                B1++;
+                managementLevel2.piringA = B1;
+                //handsanitizertubuh.transform.position = lokApleB;
+                managementLevel2.getValue();
+
+
+            }
+            if (level2 && piringB)
+            {
+                int B1 = managementLevel2.piringB;
+                B1--;
+                managementLevel2.piringA = B1;
+
+                int A1 = managementLevel2.piringA;
+                A1++;
+                managementLevel2.piringA = A1;
+                managementLevel2.getValue();
+                //handsanitizerasli.transform.position = lokApleA;
+            }
+
             if (a >= b)
             {
                 managementMenang.win = true;
@@ -48,29 +74,7 @@ public class managementKelengkapanBadan_AmbilHZ : MonoBehaviour
                 //managementMenang.ActivateUIMode();
             }
             //level2
-            if (level2 && piringA )
-            {
-                int A = managementLevel2.piringA;
-                A++;
-                managementLevel2.piringA = A;
-                int B = managementLevel2.piringB;
-                B--;
-                managementLevel2.piringA = B;
-                //handsanitizertubuh.transform.position = lokApleB;
-               
-            }
-            if (level2&& piringB)
-            {
-                int B = managementLevel2.piringB;
-                B++;
-                managementLevel2.piringA = B;
-
-                int A = managementLevel2.piringA;
-                A--;
-                managementLevel2.piringA = A;
-
-                //handsanitizerasli.transform.position = lokApleA;
-            }
+            
         }
 
         

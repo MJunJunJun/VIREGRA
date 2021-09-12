@@ -12,7 +12,7 @@ public class level2 : MonoBehaviour
                 
     }
 
-    void getValue()
+    public void getValue()
     {
         if (piringA == piringB)
         {
@@ -27,6 +27,6 @@ public class level2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        getValue(); 
     }
 }
