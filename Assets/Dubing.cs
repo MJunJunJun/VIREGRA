@@ -8,7 +8,7 @@ public class Dubing : MonoBehaviour
     public AudioSource dubing;
     public UI_InteractionController kontrol;
     public GameObject suaraDubing;
-    public bool adaPetunjuk;
+    public bool adaPetunjuk;// untuk level1
     public GameObject tombol;
     public GameObject bgSound;
     public XRRayInteractor managementTeleportKetikaDubingSelesai;
@@ -47,6 +47,10 @@ public class Dubing : MonoBehaviour
             //
             suaraDubing.SetActive(false);
             portal.enabled = true;
+        }
+        else
+        {
+            Time.timeScale = 0;
         }
         
     }

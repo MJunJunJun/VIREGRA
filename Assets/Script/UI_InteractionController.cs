@@ -26,8 +26,8 @@ public class UI_InteractionController : MonoBehaviour
     public bool waktuhabis;//bernilai true juka waktu habis
     public bool win;
     public ActionBasedControllerManager kontrolTanganKanan;
-    public bool petunjukPenggunaan;
-    public bool adapetunjuk;
+    public bool petunjukPenggunaan;//untuk panel tutorial
+    public bool adapetunjuk,level1;
 
 
     #region Unity Method
@@ -48,11 +48,14 @@ public class UI_InteractionController : MonoBehaviour
         {
             Time.timeScale = 0;
         }
-        if (adapetunjuk)
+
+        if (level1)
         {
             UIMODE();
         }
 
+
+        panelPause.SetActive(false);
     }
 
     private void Update()

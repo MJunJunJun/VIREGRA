@@ -2279,6 +2279,7 @@ MonoBehaviour:
   kontrolTanganKanan: {fileID: 5016624359369745718}
   petunjukPenggunaan: 1
   adapetunjuk: 1
+  level1: 0
 --- !u!1 &5016624359369745716
 GameObject:
   m_ObjectHideFlags: 0
@@ -2948,7 +2949,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5016624359846254834}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!114 &5016624359846254837
 MonoBehaviour:
   m_ObjectHideFlags: 0

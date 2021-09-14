@@ -3625,13 +3625,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama: 
   managementMenang: {fileID: 3869933271663959652}
-  managementLevel2: {fileID: 0}
-  namaLevel: 
-  level2: 0
-  piringA: 0
-  piringB: 0
-  lokApleA: {x: 0, y: 0, z: 0}
-  lokApleB: {x: 0, y: 0, z: 0}
   handsanitizerasli: {fileID: 0}
   handsanitizertubuh: {fileID: 0}
 --- !u!1 &3869933273009436905
@@ -3879,13 +3872,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama: Handsanitizer
   managementMenang: {fileID: 3869933271663959652}
-  managementLevel2: {fileID: 0}
-  namaLevel: 
-  level2: 0
-  piringA: 0
-  piringB: 0
-  lokApleA: {x: 0, y: 0, z: 0}
-  lokApleB: {x: 0, y: 0, z: 0}
   handsanitizerasli: {fileID: 0}
   handsanitizertubuh: {fileID: 1126399251}
 --- !u!1 &3869933273206427250
@@ -4133,13 +4119,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama: Handsanitizer
   managementMenang: {fileID: 3869933271663959652}
-  managementLevel2: {fileID: 0}
-  namaLevel: 
-  level2: 0
-  piringA: 0
-  piringB: 0
-  lokApleA: {x: 0, y: 0, z: 0}
-  lokApleB: {x: 0, y: 0, z: 0}
   handsanitizerasli: {fileID: 0}
   handsanitizertubuh: {fileID: 1126399251}
 --- !u!1 &3869933273286698793

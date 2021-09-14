@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene game Viregra/Game2.unity
     guid: 01618fc918153c74b894bb00d7e1cecc
+  - enabled: 0
+    path: Assets/Scene game Viregra/game3.unity
+    guid: 7f23d98540e35134794254ddca197f96
   - enabled: 1
     path: Assets/test Collision.unity
     guid: d64fc5700b7c9bb439219e980225e469
