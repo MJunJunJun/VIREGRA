@@ -46,11 +46,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dubing: {fileID: 175997870}
+  kontrol: {fileID: 5016624359191521024}
   suaraDubing: {fileID: 175997867}
   adaPetunjuk: 1
   tombol: {fileID: 2035028702}
   bgSound: {fileID: 941228380}
-  managementTeleportKetikaDubingSelesai: {fileID: 0}
+  managementTeleportKetikaDubingSelesai: {fileID: 5016624360145079465}
   portal: {fileID: 0}
 --- !u!82 &175997870
 AudioSource:
@@ -3798,13 +3799,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama: Handsanitizer
   managementMenang: {fileID: 5016624359191521024}
-  managementLevel2: {fileID: 0}
-  namaLevel: level1
-  level2: 0
-  piringA: 0
-  piringB: 0
-  lokApleA: {x: 0, y: 0, z: 0}
-  lokApleB: {x: 0, y: 0, z: 0}
   handsanitizerasli: {fileID: 0}
   handsanitizertubuh: {fileID: 8082380818866177143}
 --- !u!1 &5016624360666024776
@@ -3838,7 +3832,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5016624360666024776}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 5.053397, y: -0.26771998, z: 0.7126639}
+  m_LocalPosition: {x: 5.053397, y: -0.26771998, z: 0.856}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5016624359781455556}
@@ -4710,13 +4704,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama: Handsanitizer
   managementMenang: {fileID: 5016624359191521024}
-  managementLevel2: {fileID: 0}
-  namaLevel: level1
-  level2: 0
-  piringA: 0
-  piringB: 0
-  lokApleA: {x: 0, y: 0, z: 0}
-  lokApleB: {x: 0, y: 0, z: 0}
   handsanitizerasli: {fileID: 0}
   handsanitizertubuh: {fileID: 8082380818866177143}
 --- !u!1 &5066105176036770310

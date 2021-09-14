@@ -6,20 +6,21 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class Dubing : MonoBehaviour
 {
     public AudioSource dubing;
-    UI_InteractionController kontrol;
+    public UI_InteractionController kontrol;
     public GameObject suaraDubing;
     public bool adaPetunjuk;
     public GameObject tombol;
     public GameObject bgSound;
     public XRRayInteractor managementTeleportKetikaDubingSelesai;
     public TeleportationArea portal;
+    //public bool level1;
 
     private void Start()
     {
         //kontrol.kontrolTanganKanan = false;
-        kontrol.enabled = false;
+        //kontrol.enabled = false;
         Time.timeScale = 0;
-        managementTeleportKetikaDubingSelesai.enabled = false;
+        //managementTeleportKetikaDubingSelesai.enabled = false;
         portal.enabled = false;
 
     }
@@ -34,10 +35,16 @@ public class Dubing : MonoBehaviour
             {
                 tombol.SetActive(true);
                 bgSound.SetActive(true);
+                //kontrol.selesaiPetunjuk();
 
             }
+            else
+            {
+                Time.timeScale = 1;
+                kontrol.panelPause.SetActive(true);
+            }
             
-            Time.timeScale = 1;
+            //
             suaraDubing.SetActive(false);
             portal.enabled = true;
         }

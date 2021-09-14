@@ -14,12 +14,13 @@ public class level2 : MonoBehaviour
 
     public void getValue()
     {
-        if (piringA == piringB)
+        if (piringA == piringB && piringA != 0&&piringA>=3)
         {
-            controlMenang.win=true;
+            controlMenang.win = true;
             controlMenang.panelMenang.SetActive(true);
             controlMenang.UIMODE();
         }
+
 
     }
 
@@ -27,6 +28,6 @@ public class level2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        getValue(); 
+        //getValue(); 
     }
 }

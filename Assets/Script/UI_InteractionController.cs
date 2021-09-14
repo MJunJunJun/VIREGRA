@@ -114,21 +114,22 @@ public class UI_InteractionController : MonoBehaviour
 
     public void UIMODE()
     {
+
+
+
+        if (win == true || waktuhabis == true)
+        {
+            panelPause.SetActive(false);
+        }
+        else
+        {
+            panelPause.SetActive(true);
+        }
         
-           
-           
-                if (win == false && waktuhabis == false)
-                {
-                    panelPause.SetActive(true);
-                }
-                else
-                {
-                    panelPause.SetActive(false);
-                }
-            
 
 
-            if (!isUICanvasActive)
+
+        if (!isUICanvasActive)
             {
                 if (!petunjukPenggunaan)
                 {
