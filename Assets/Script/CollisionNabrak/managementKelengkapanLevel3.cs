@@ -6,10 +6,12 @@ public class managementKelengkapanLevel3 : MonoBehaviour
 {
     public Animator animasiscene3;
     public GameObject wajan, jagungWajan,tutupWajan, Popcorn, PopcornMeledak,oFFKompor,api,minyakDiwajan;
-    public GameObject wajanGerak,tutupWajanGerak, jagungGerak,ONKompor;
+    public GameObject wajanGerak,tutupWajanGerak, jagungGerak,ONKompor,tutupMinyak;
     public int urutan;
     public UI_InteractionController controlMenang;
     public GameObject suaraProses;
+    public CollisionLevel3 minyak;
+    public BoxCollider minyakBox;
     
     // Start is called before the first frame update
     void Start()
@@ -20,7 +22,8 @@ public class managementKelengkapanLevel3 : MonoBehaviour
         tutupWajan.SetActive(false);
         Popcorn.SetActive(false);
         PopcornMeledak.SetActive(false);
-        oFFKompor.SetActive(false);
+        oFFKompor.SetActive(true);
+        ONKompor.SetActive(false);
         api.SetActive(false);
         minyakDiwajan.SetActive(false);
         
@@ -42,11 +45,15 @@ public class managementKelengkapanLevel3 : MonoBehaviour
         if (urutan == 2)
         {
             minyakDiwajan.SetActive(true);
+            minyak.enabled = false;
+            minyakBox.enabled = false;
+            tutupMinyak.SetActive(false);
         }
         if (urutan == 3)
         {
             oFFKompor.SetActive(false);
             ONKompor.SetActive(true);
+            api.SetActive(true);
         }
         if (urutan == 4)
         {
@@ -65,20 +72,24 @@ public class managementKelengkapanLevel3 : MonoBehaviour
             //nunggu play suara dari suara menambahkan variable
             Popcorn.SetActive(true);
             PopcornMeledak.SetActive(true);
+            jagungWajan.SetActive(false);
         }
         if (urutan == 7)
         {
             //matikan kompor
+            api.SetActive(false);
             oFFKompor.SetActive(true);
             ONKompor.SetActive(false);
+            controlMenang.win = true;
+            controlMenang.panelMenang.SetActive(true);
+            controlMenang.UIMODE();
+            Time.timeScale = 0;
 
         }
         if(urutan == 8)
         {
             //win
-            controlMenang.win = true;
-            controlMenang.panelMenang.SetActive(true);
-            controlMenang.UIMODE();
+            
 
         }
     }
