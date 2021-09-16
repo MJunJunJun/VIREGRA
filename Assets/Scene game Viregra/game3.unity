@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -433,9 +433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nama: TempatTriger
-  asli: {fileID: 0}
-  setelahasli: {fileID: 0}
-  urutanBarang: 0
+  urutanBarang: 4
   management: {fileID: 0}
   salah: {fileID: 1158745933}
 --- !u!1 &234362885
@@ -750,24 +748,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &306344086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502877292883165051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3950526ad7b923a47bc04b15bbf1ae0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nama: TempatTriger
-  asli: {fileID: 0}
-  setelahasli: {fileID: 0}
-  urutanBarang: 0
-  management: {fileID: 0}
-  salah: {fileID: 1158745933}
 --- !u!114 &306344087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -780,12 +760,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3950526ad7b923a47bc04b15bbf1ae0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nama: 
-  asli: {fileID: 0}
-  setelahasli: {fileID: 0}
-  urutanBarang: 0
+  nama: TempatTriger
+  urutanBarang: 2
   management: {fileID: 0}
-  salah: {fileID: 0}
+  salah: {fileID: 1158745933}
 --- !u!65 &306344088
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1422,6 +1400,148 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!1 &847155759
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 847155760}
+  - component: {fileID: 847155762}
+  - component: {fileID: 847155761}
+  m_Layer: 0
+  m_Name: ProsesMemasak
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &847155760
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847155759}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &847155761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847155759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3452c27846af72643a067fe1bc5c741b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 847155762}
+  management: {fileID: 1731016491}
+--- !u!82 &847155762
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847155759}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 3bc5319287a3cd04cb5308fb0fcff5cb, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &889392928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1837,9 +1957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nama: TempatTriger
-  asli: {fileID: 0}
-  setelahasli: {fileID: 0}
-  urutanBarang: 0
+  urutanBarang: 1
   management: {fileID: 0}
   salah: {fileID: 1158745933}
 --- !u!1001 &1142304308
@@ -2277,6 +2395,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1158745934}
   - component: {fileID: 1158745935}
+  - component: {fileID: 1158745936}
   m_Layer: 0
   m_Name: Salah
   m_TagString: Untagged
@@ -2394,6 +2513,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1158745936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158745933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9042b231b721d8428c80b2cd93c5366, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audiosource: {fileID: 1158745935}
 --- !u!1 &1290333094
 GameObject:
   m_ObjectHideFlags: 0
@@ -3012,6 +3144,7 @@ MonoBehaviour:
   ONKompor: {fileID: 1996373182}
   urutan: 0
   controlMenang: {fileID: 5016624360486950883}
+  suaraProses: {fileID: 847155759}
 --- !u!4 &1731016492
 Transform:
   m_ObjectHideFlags: 0
@@ -3916,6 +4049,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baed0d2af1f794c43bcd7c491f6b2c8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1955984454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1955984456}
+  - component: {fileID: 1955984455}
+  m_Layer: 0
+  m_Name: ManagementSuara
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1955984455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955984454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b75797344c75f69428e8b037db6502cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  audioTutorial:
+  - {fileID: 8300000, guid: 92e664b44bf95c44499f68ecd40dac83, type: 3}
+  - {fileID: 8300000, guid: a606e45088a155b44bb3092438395753, type: 3}
+  - {fileID: 8300000, guid: c872036f413c5ee47aaf1e524f715f83, type: 3}
+  urutan: 0
+--- !u!4 &1955984456
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955984454}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.6944118, y: -3.4785728, z: -1.2978015}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1996373182
 GameObject:
   m_ObjectHideFlags: 0
@@ -3927,8 +4109,9 @@ GameObject:
   - component: {fileID: 1996373183}
   - component: {fileID: 1996373185}
   - component: {fileID: 1996373184}
+  - component: {fileID: 1996373186}
   m_Layer: 0
-  m_Name: on
+  m_Name: ON
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3996,6 +4179,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1996373182}
+  m_Mesh: {fileID: 8385836491182413749, guid: 35e90a01a41c53f419c451af64029c6f, type: 3}
+--- !u!64 &1996373186
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996373182}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: 8385836491182413749, guid: 35e90a01a41c53f419c451af64029c6f, type: 3}
 --- !u!1 &2004042507
 GameObject:
@@ -4328,9 +4525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nama: TempatTriger
-  asli: {fileID: 0}
-  setelahasli: {fileID: 0}
-  urutanBarang: 0
+  urutanBarang: 5
   management: {fileID: 0}
   salah: {fileID: 1158745933}
 --- !u!33 &5633273104331642
@@ -4835,6 +5030,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -6763858364670572316, guid: 35e90a01a41c53f419c451af64029c6f, type: 3}
   m_PrefabInstance: {fileID: 1142304308}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &2459513671044802257
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2459513671044802256}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8385836491182413749, guid: 35e90a01a41c53f419c451af64029c6f, type: 3}
 --- !u!1 &2490194676605339938 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6733177361254619370, guid: 35e90a01a41c53f419c451af64029c6f, type: 3}
@@ -5475,6 +5684,7 @@ GameObject:
   - component: {fileID: 5016624359132541282}
   - component: {fileID: 5016624359132541293}
   - component: {fileID: 8082380817530598731}
+  - component: {fileID: 5016624359132541296}
   m_Layer: 11
   m_Name: LeftHand base
   m_TagString: Untagged
@@ -5496,6 +5706,25 @@ Transform:
   m_Father: {fileID: 5016624360589743572}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5016624359132541296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5016624359132541294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6135f0f25932e44418ff59aee6b57f26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnKompor: {fileID: 1996373182}
+  OffKompor: {fileID: 2459513671044802256}
+  nama1: OFF
+  nama2: ON
+  urutan1: 3
+  urutan2: 7
+  management: {fileID: 0}
 --- !u!114 &5016624359278263202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6207,6 +6436,7 @@ GameObject:
   - component: {fileID: 5016624359929573026}
   - component: {fileID: 5016624359929573037}
   - component: {fileID: 5016624359929573036}
+  - component: {fileID: 5016624359929573040}
   m_Layer: 12
   m_Name: RightHand UI Controler
   m_TagString: Untagged
@@ -6228,6 +6458,25 @@ Transform:
   m_Father: {fileID: 5016624360486950882}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5016624359929573040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5016624359929573038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6135f0f25932e44418ff59aee6b57f26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnKompor: {fileID: 1996373182}
+  OffKompor: {fileID: 2459513671044802256}
+  nama1: OFF
+  nama2: ON
+  urutan1: 3
+  urutan2: 7
+  management: {fileID: 0}
 --- !u!135 &5016624360152401800
 SphereCollider:
   m_ObjectHideFlags: 0

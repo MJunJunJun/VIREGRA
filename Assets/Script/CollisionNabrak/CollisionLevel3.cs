@@ -5,7 +5,7 @@ using UnityEngine;
 public class CollisionLevel3 : MonoBehaviour
 {
     public string nama;
-    public GameObject asli, setelahasli;
+   // public GameObject asli, setelahasli;
     public int urutanBarang;
     public managementKelengkapanLevel3 management;
     public GameObject salah;
@@ -16,6 +16,7 @@ public class CollisionLevel3 : MonoBehaviour
     {
         // management.gameObject.name == "ManagementLevel3";
         management = GameObject.FindObjectOfType<managementKelengkapanLevel3>();
+        salah.SetActive(false);
        
     }
     
@@ -24,28 +25,21 @@ public class CollisionLevel3 : MonoBehaviour
         if (other.gameObject.name == nama)
         {
             
-            if (management.urutan == urutanBarang)
+            if (management.urutan == urutanBarang-1)
             {
                 int a = management.urutan;
                 a++;
-                asli.SetActive(false);
-                setelahasli.SetActive(true);
+                management.urutan = a;
+                // asli.SetActive(false);
+                // setelahasli.SetActive(true);
+                Debug.Log("MASUK");
+            }
+            else
+            {
+                salah.SetActive(true);
             }
             
         }
     }
-
-
-  /*  private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.name == nama)
-        {
- 
-
-        }
-
-    }*/
-
-
 
 }

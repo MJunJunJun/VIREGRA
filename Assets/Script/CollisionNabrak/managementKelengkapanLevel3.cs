@@ -9,18 +9,27 @@ public class managementKelengkapanLevel3 : MonoBehaviour
     public GameObject wajanGerak,tutupWajanGerak, jagungGerak,ONKompor;
     public int urutan;
     public UI_InteractionController controlMenang;
+    public GameObject suaraProses;
     
     // Start is called before the first frame update
     void Start()
     {
         urutan = 0;
+        wajan.SetActive(false);
+        jagungWajan.SetActive(false);
+        tutupWajan.SetActive(false);
+        Popcorn.SetActive(false);
+        PopcornMeledak.SetActive(false);
+        oFFKompor.SetActive(false);
+        api.SetActive(false);
+        minyakDiwajan.SetActive(false);
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        urutanPenggunaan();
     }
 
     void urutanPenggunaan()
@@ -32,12 +41,12 @@ public class managementKelengkapanLevel3 : MonoBehaviour
         }
         if (urutan == 2)
         {
-            oFFKompor.SetActive(false);
-            ONKompor.SetActive(true);
+            minyakDiwajan.SetActive(true);
         }
         if (urutan == 3)
         {
-            minyakDiwajan.SetActive(true);
+            oFFKompor.SetActive(false);
+            ONKompor.SetActive(true);
         }
         if (urutan == 4)
         {
@@ -46,16 +55,25 @@ public class managementKelengkapanLevel3 : MonoBehaviour
         }
         if (urutan == 5)
         {
-            //nunggu play suara dari suara menambahkan variable
+            tutupWajan.SetActive(true);
+            tutupWajanGerak.SetActive(false);
+            suaraProses.SetActive(true);
+            
         }
         if (urutan == 6)
+        {
+            //nunggu play suara dari suara menambahkan variable
+            Popcorn.SetActive(true);
+            PopcornMeledak.SetActive(true);
+        }
+        if (urutan == 7)
         {
             //matikan kompor
             oFFKompor.SetActive(true);
             ONKompor.SetActive(false);
 
         }
-        if(urutan == 7)
+        if(urutan == 8)
         {
             //win
             controlMenang.win = true;
