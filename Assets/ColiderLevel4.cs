@@ -4,15 +4,48 @@ using UnityEngine;
 
 public class ColiderLevel4 : MonoBehaviour
 {
-    public GameObject panel;
     public string nama;
+    //public int JumlahAmbilbarang;
+    public UI_InteractionController managementMenang;
+    // public level2 managementLevel2;
+
+
+
+    private void Start()
+    {
+        //PlayerPrefs.SetInt(namaLevel, 0);
+    }
+    public GameObject handsanitizerasli, handsanitizertubuh;
     private void OnTriggerEnter(Collider other)
     {
+        int b = managementMenang.JumlahPlayerPrefers;
         if (other.gameObject.name == nama)
         {
-            panel.SetActive(true);
-            
+            int a = managementMenang.jumlahMisiSekarang;
+            a++;
+            Debug.Log("HEH!");
+
+            managementMenang.jumlahMisiSekarang = a;
+            handsanitizerasli.SetActive(false);
+            handsanitizertubuh.SetActive(true);
+
+
+
+            if (a >= b)
+            {
+                managementMenang.win = true;
+                //managementMenang.OnEnable();
+                managementMenang.panelMenang.SetActive(true);
+                managementMenang.UIMODE();
+                //managementMenang.ActivateUIMode();
+            }
+            //level2
 
         }
+
+
+
+
     }
+
 }
