@@ -2218,6 +2218,7 @@ MonoBehaviour:
   kontrolTanganKanan: {fileID: 0}
   petunjukPenggunaan: 0
   adapetunjuk: 0
+  level1: 0
 --- !u!1 &3869933271841694275
 GameObject:
   m_ObjectHideFlags: 0
