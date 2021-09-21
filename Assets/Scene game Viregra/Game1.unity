@@ -2883,6 +2883,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5016624359410424279, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6436214215932285582, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8082380817552336678, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
+      propertyPath: levelUnlock
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8082380817627855159, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8082380817829985584, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8082380818986321320, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
       propertyPath: handsanitizerasli
       value: 
