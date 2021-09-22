@@ -623,6 +623,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Tembak",
+                    "type": "Button",
+                    "id": "9687acfb-24fb-4042-8121-c0d3b7c26640",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -953,6 +961,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Switch UI",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2cccb17b-76ba-4af2-b3cd-bc0443e1dd06",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tembak",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
