@@ -6,6 +6,7 @@ public class Spawner : MonoBehaviour
 {
     public GameObject projecttile;
     public float projecttilespeed;
+    public GameObject target;
     void Update()
     {
         
@@ -13,12 +14,16 @@ public class Spawner : MonoBehaviour
 
     public void tembak()
     {
-       /* if (Input.GetKeyDown(KeyCode.Space))
-        { }*/
+        /* if (Input.GetKeyDown(KeyCode.Space))
+         { }*/
 
-            GameObject bluebullet = Instantiate(projecttile, transform) as GameObject;
-            Rigidbody rb = bluebullet.GetComponent<Rigidbody>();
-            rb.velocity = transform.forward * projecttilespeed;
-        
+        Vector3 pos = target.transform.position;
+        Quaternion rotation = target.transform.rotation;
+
+
+        GameObject bluebullet = Instantiate(projecttile,pos, Quaternion.identity) as GameObject;
+        Rigidbody rb = bluebullet.GetComponent<Rigidbody>();
+        rb.velocity = transform.forward * projecttilespeed;
+
     }
 }

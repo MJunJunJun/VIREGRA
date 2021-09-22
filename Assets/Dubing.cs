@@ -13,6 +13,8 @@ public class Dubing : MonoBehaviour
     public GameObject bgSound;
     public XRRayInteractor managementTeleportKetikaDubingSelesai;
     public TeleportationArea portal;
+    public bool lawanRaja;
+    public GameObject pistolSpwaner;
     //public bool level1;
 
     private void Start()
@@ -30,6 +32,10 @@ public class Dubing : MonoBehaviour
     {
         if (!dubing.isPlaying)
         {
+            if (lawanRaja)
+            {
+                pistolSpwaner.SetActive(true);
+            }
             //kontrol.enabled = true;
             if (adaPetunjuk)
             {
@@ -51,6 +57,11 @@ public class Dubing : MonoBehaviour
         else
         {
             Time.timeScale = 0;
+            if (lawanRaja)
+            {
+                pistolSpwaner.SetActive(false);
+            }
+            
         }
         
     }
