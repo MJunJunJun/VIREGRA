@@ -9,4 +9,8 @@ public class Navigasi : MonoBehaviour
     {
         SceneManager.LoadScene(nomor);
     }
+    public void keluar()
+    {
+        Application.Quit();
+    }
 }

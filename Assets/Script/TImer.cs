@@ -13,6 +13,7 @@ public class TImer : MonoBehaviour
     public float detik = 0f;
     public float detikAwal;
     public float menit;
+   // public GameObject halo;
 
     [SerializeField] Text textHitungMundur;
 
@@ -26,6 +27,8 @@ public class TImer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       // halo.SetActive(true);
+       // Debug.Log("HALO");
         detik -= 1 * Time.deltaTime;
         textHitungMundur.text = menit.ToString("0")+":" + detik.ToString("0");
 

@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: 36c44b0556e3e6d4483a3e7aeccd954d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 853775357718014771
+    second: kedondong_0
+  - first:
+      213: -1573847095977414993
+    second: kedondong_1
+  - first:
+      213: -3267410028474870332
+    second: kedondong_2
+  - first:
+      213: -323567300275385854
+    second: kedondong_3
+  - first:
+      213: -3995699343581967696
+    second: kedondong_4
+  - first:
+      213: -967284538860572540
+    second: kedondong_5
+  - first:
+      213: 2758437063986710879
+    second: kedondong_6
+  - first:
+      213: -5484692380265081174
+    second: kedondong_7
+  - first:
+      213: -2773130287995093169
+    second: kedondong_8
+  - first:
+      213: 6890386403252743782
+    second: kedondong_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -125,11 +155,221 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: kedondong_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2626
+        width: 378
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ba3c21a2839db00800000000000000
+      internalID: 853775357718014771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kedondong_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2334
+        width: 378
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae6c71a762982ae0800000000000000
+      internalID: -1573847095977414993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kedondong_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2043
+        width: 378
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5d43df3e3d7a2d0800000000000000
+      internalID: -3267410028474870332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kedondong_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1751
+        width: 378
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a47263145728bf0800000000000000
+      internalID: -323567300275385854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kedondong_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1458
+        width: 378
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba098cfd9c6c88c0800000000000000
+      internalID: -3995699343581967696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kedondong_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1166
+        width: 378
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480fc7836d38392f0800000000000000
+      internalID: -967284538860572540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kedondong_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 874
+        width: 378
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59033615efe74620800000000000000
+      internalID: 2758437063986710879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kedondong_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 583
+        width: 378
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6120cd65572e3b0800000000000000
+      internalID: -5484692380265081174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kedondong_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 291
+        width: 378
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ffc2c12bcd389d0800000000000000
+      internalID: -2773130287995093169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kedondong_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 378
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66eaf0b4de19f9f50800000000000000
+      internalID: 6890386403252743782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9edd90e4c47086240a7c1c3490e82517
     internalID: 0
     vertices: []
     indices: 

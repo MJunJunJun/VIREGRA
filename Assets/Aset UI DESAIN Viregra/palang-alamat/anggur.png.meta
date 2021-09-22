@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: 4c2128e64f0978241899968539be02ed
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8810955468008969661
+    second: anggur_0
+  - first:
+      213: -6038177397789183981
+    second: anggur_1
+  - first:
+      213: -6280106790611049883
+    second: anggur_2
+  - first:
+      213: -5927010632593942424
+    second: anggur_3
+  - first:
+      213: 574605841117954338
+    second: anggur_4
+  - first:
+      213: 6141771062795981421
+    second: anggur_5
+  - first:
+      213: 3263443072804215371
+    second: anggur_6
+  - first:
+      213: -5737877656541959544
+    second: anggur_7
+  - first:
+      213: 2703328068962401819
+    second: anggur_8
+  - first:
+      213: -4843689998356840353
+    second: anggur_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -125,11 +155,221 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: anggur_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2626
+        width: 379
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a2a8d2fa239b580800000000000000
+      internalID: -8810955468008969661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anggur_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2334
+        width: 379
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310bbf9f5a5143ca0800000000000000
+      internalID: -6038177397789183981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anggur_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2043
+        width: 379
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5622c1ab52498d8a0800000000000000
+      internalID: -6280106790611049883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anggur_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1751
+        width: 379
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86856487b370fbda0800000000000000
+      internalID: -5927010632593942424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anggur_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1458
+        width: 379
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22143b5d7f869f700800000000000000
+      internalID: 574605841117954338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anggur_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1166
+        width: 379
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d625ab9bd34fb3550800000000000000
+      internalID: 6141771062795981421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anggur_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 874
+        width: 379
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a543b2f241a4d20800000000000000
+      internalID: 3263443072804215371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anggur_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 583
+        width: 379
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a6a250ca6fe50b0800000000000000
+      internalID: -5737877656541959544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anggur_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 379
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1eb8dd4e86248520800000000000000
+      internalID: 2703328068962401819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anggur_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 379
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5004d50c91c7ccb0800000000000000
+      internalID: -4843689998356840353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8381627c9c42c1143b0bccc179f0c86e
     internalID: 0
     vertices: []
     indices: 

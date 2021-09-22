@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: cdf8a06f44dd8474c8c4a226bd93989b
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8857236621478694734
+    second: delima_0
+  - first:
+      213: -5957770158840663273
+    second: delima_1
+  - first:
+      213: -7133214565771074287
+    second: delima_2
+  - first:
+      213: 3176787720025128667
+    second: delima_3
+  - first:
+      213: -5395361322372291291
+    second: delima_4
+  - first:
+      213: 6086203773156182918
+    second: delima_5
+  - first:
+      213: 3075550394757118844
+    second: delima_6
+  - first:
+      213: 2662105327364170517
+    second: delima_7
+  - first:
+      213: -6403508144949942223
+    second: delima_8
+  - first:
+      213: 6355391484031895406
+    second: delima_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -125,11 +155,221 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: delima_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2627
+        width: 379
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b07e2d6836c41580800000000000000
+      internalID: -8857236621478694734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: delima_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2335
+        width: 379
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71331ec2b9fb15da0800000000000000
+      internalID: -5957770158840663273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: delima_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2043
+        width: 379
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115a294552bb10d90800000000000000
+      internalID: -7133214565771074287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: delima_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1751
+        width: 379
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdebbea9997361c20800000000000000
+      internalID: 3176787720025128667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: delima_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1458
+        width: 379
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5252e119673df15b0800000000000000
+      internalID: -5395361322372291291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: delima_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1167
+        width: 379
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bcd99e51a867450800000000000000
+      internalID: 6086203773156182918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: delima_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 875
+        width: 379
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b7f400acc8eaa20800000000000000
+      internalID: 3075550394757118844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: delima_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 583
+        width: 379
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5136738d0b2b1f420800000000000000
+      internalID: 2662105327364170517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: delima_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 291
+        width: 379
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13820f7f44b2227a0800000000000000
+      internalID: -6403508144949942223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: delima_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 379
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e678346e1e2e23850800000000000000
+      internalID: 6355391484031895406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 528494412507dca44beadd425337c8b2
     internalID: 0
     vertices: []
     indices: 

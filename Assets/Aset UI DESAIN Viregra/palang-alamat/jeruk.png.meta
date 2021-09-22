@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: 9bab2a64b1f40dd4ea56cdfa9648fd12
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2307801769040213223
+    second: jeruk_0
+  - first:
+      213: -7324262687781935460
+    second: jeruk_1
+  - first:
+      213: 862643445785516822
+    second: jeruk_2
+  - first:
+      213: -2238833338942487094
+    second: jeruk_3
+  - first:
+      213: -3814689300101192625
+    second: jeruk_4
+  - first:
+      213: 2800051597604548589
+    second: jeruk_5
+  - first:
+      213: -7534248138593112466
+    second: jeruk_6
+  - first:
+      213: -3885728028894875591
+    second: jeruk_7
+  - first:
+      213: -7686073485426754355
+    second: jeruk_8
+  - first:
+      213: -7611663099397971106
+    second: jeruk_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -125,11 +155,221 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: jeruk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2627
+        width: 379
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4f8af4b75f60020800000000000000
+      internalID: 2307801769040213223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeruk_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2335
+        width: 379
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c962c1d14edfa5a90800000000000000
+      internalID: -7324262687781935460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeruk_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2042
+        width: 379
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b5dd9b4a9b8fb00800000000000000
+      internalID: 862643445785516822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeruk_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1750
+        width: 379
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac50809a0f01ee0e0800000000000000
+      internalID: -2238833338942487094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeruk_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1458
+        width: 379
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f442cfaea408f0bc0800000000000000
+      internalID: -3814689300101192625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeruk_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1166
+        width: 379
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defebfbb718cbd620800000000000000
+      internalID: 2800051597604548589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeruk_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 875
+        width: 379
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e62817c39f07790800000000000000
+      internalID: -7534248138593112466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeruk_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 583
+        width: 379
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93031f7f1fe131ac0800000000000000
+      internalID: -3885728028894875591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeruk_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 291
+        width: 379
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccf69733e4955590800000000000000
+      internalID: -7686073485426754355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeruk_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 379
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e536f6a4db0fd5690800000000000000
+      internalID: -7611663099397971106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8df933379f2117541a9929531d36546d
     internalID: 0
     vertices: []
     indices: 

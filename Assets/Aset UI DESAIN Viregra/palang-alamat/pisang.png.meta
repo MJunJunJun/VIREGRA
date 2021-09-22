@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: 40a9c971eba14454c99c1de46c572750
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -9223277146208604478
+    second: pisang_0
+  - first:
+      213: 7189575120310497605
+    second: pisang_1
+  - first:
+      213: -5376189590104891864
+    second: pisang_2
+  - first:
+      213: -7200864008729143467
+    second: pisang_3
+  - first:
+      213: -4541408597647182712
+    second: pisang_4
+  - first:
+      213: -3086212530660253161
+    second: pisang_5
+  - first:
+      213: -2669326617389780343
+    second: pisang_6
+  - first:
+      213: 7179235363327330439
+    second: pisang_7
+  - first:
+      213: 3836613012430678117
+    second: pisang_8
+  - first:
+      213: -2295949177430069255
+    second: pisang_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -125,11 +155,221 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: pisang_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2627
+        width: 379
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cee1437d46500080800000000000000
+      internalID: -9223277146208604478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisang_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2335
+        width: 379
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541f71cda7086c360800000000000000
+      internalID: 7189575120310497605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisang_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2042
+        width: 379
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e15a45d00f365b0800000000000000
+      internalID: -5376189590104891864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisang_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1750
+        width: 379
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557ddcbf554611c90800000000000000
+      internalID: -7200864008729143467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisang_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1458
+        width: 379
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884b55d11fca9f0c0800000000000000
+      internalID: -4541408597647182712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisang_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1166
+        width: 379
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712e2a80e029b25d0800000000000000
+      internalID: -3086212530660253161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisang_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 875
+        width: 379
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982bcfc8595a4fad0800000000000000
+      internalID: -2669326617389780343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisang_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 583
+        width: 379
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7884c069684c1a360800000000000000
+      internalID: 7179235363327330439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisang_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 379
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568629225336e3530800000000000000
+      internalID: 3836613012430678117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisang_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 379
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff2ee833662320e0800000000000000
+      internalID: -2295949177430069255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 15c7786e5bb1b4447ad047d40abb36ef
     internalID: 0
     vertices: []
     indices: 
