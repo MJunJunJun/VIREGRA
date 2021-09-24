@@ -5,13 +5,18 @@ using UnityEngine;
 public class EnemyMove : MonoBehaviour
 {
     //playerpreference speed
+    public string nama;
     public GameObject player;
     public float speed =1.5f;
     public float timetoAddSpeed = 5;
+    public HealthPlayer nyawaPlayer;
+
     // Start is called before the first frame update
     void Start()
     {
         PlayerPrefs.SetInt("health", 100);
+        player = GameObject.FindGameObjectWithTag("Player");
+        nyawaPlayer = GameObject.FindObjectOfType<HealthPlayer>();
     }
 
     // Update is called once per frame
@@ -28,4 +33,16 @@ public class EnemyMove : MonoBehaviour
         }
        
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.name == nama)
+        {
+            Debug.Log("Halo");
+            int a=nyawaPlayer.nyawa ;
+            int b = a - 20;
+            nyawaPlayer.nyawa = b;
+        }
+    }
+
 }
