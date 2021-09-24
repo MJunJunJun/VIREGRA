@@ -47,7 +47,11 @@ public class Dubing : MonoBehaviour
             else
             {
                 Time.timeScale = 1;
-                kontrol.panelPause.SetActive(true);
+                if (!lawanRaja)
+                {
+                    kontrol.panelPause.SetActive(true);
+                }
+                
             }
             
             //

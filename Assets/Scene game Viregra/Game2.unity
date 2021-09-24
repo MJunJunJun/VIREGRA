@@ -370,7 +370,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama1: MangkokA
   nama2: MangkokB
-  managementMenang: {fileID: 0}
+  managementMenang: {fileID: 5016624360486950883}
   managementLevel2: {fileID: 1597022754}
   asli: {fileID: 0}
   setelahasli: {fileID: 0}
@@ -2753,7 +2753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama1: MangkokA
   nama2: MangkokB
-  managementMenang: {fileID: 0}
+  managementMenang: {fileID: 5016624360486950883}
   managementLevel2: {fileID: 1597022754}
   asli: {fileID: 0}
   setelahasli: {fileID: 0}
@@ -4081,7 +4081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama1: MangkokA
   nama2: MangkokB
-  managementMenang: {fileID: 0}
+  managementMenang: {fileID: 5016624360486950883}
   managementLevel2: {fileID: 1597022754}
   asli: {fileID: 0}
   setelahasli: {fileID: 0}
@@ -4511,7 +4511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama1: MangkokA
   nama2: MangkokB
-  managementMenang: {fileID: 0}
+  managementMenang: {fileID: 5016624360486950883}
   managementLevel2: {fileID: 1597022754}
   asli: {fileID: 0}
   setelahasli: {fileID: 0}
@@ -4877,7 +4877,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama1: MangkokA
   nama2: MangkokB
-  managementMenang: {fileID: 0}
+  managementMenang: {fileID: 5016624360486950883}
   managementLevel2: {fileID: 1597022754}
   asli: {fileID: 0}
   setelahasli: {fileID: 0}
@@ -5186,7 +5186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   piringA: 0
   piringB: 0
-  controlMenang: {fileID: 0}
+  controlMenang: {fileID: 5016624360486950883}
 --- !u!4 &1597022755
 Transform:
   m_ObjectHideFlags: 0
@@ -6752,7 +6752,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama1: MangkokA
   nama2: MangkokB
-  managementMenang: {fileID: 0}
+  managementMenang: {fileID: 5016624360486950883}
   managementLevel2: {fileID: 1597022754}
   asli: {fileID: 0}
   setelahasli: {fileID: 0}

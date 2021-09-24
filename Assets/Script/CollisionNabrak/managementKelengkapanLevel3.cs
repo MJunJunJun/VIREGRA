@@ -80,8 +80,10 @@ public class managementKelengkapanLevel3 : MonoBehaviour
             api.SetActive(false);
             oFFKompor.SetActive(true);
             ONKompor.SetActive(false);
+
             controlMenang.win = true;
             controlMenang.panelMenang.SetActive(true);
+            controlMenang.enabled = true;
             controlMenang.UIMODE();
             Time.timeScale = 0;
 

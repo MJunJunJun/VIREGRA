@@ -53,6 +53,8 @@ MonoBehaviour:
   bgSound: {fileID: 941228380}
   managementTeleportKetikaDubingSelesai: {fileID: 5016624360145079465}
   portal: {fileID: 0}
+  lawanRaja: 0
+  pistolSpwaner: {fileID: 0}
 --- !u!82 &175997870
 AudioSource:
   m_ObjectHideFlags: 0

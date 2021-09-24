@@ -11,13 +11,13 @@ public class EnemyMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        PlayerPrefs.SetInt("health", 100);
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
         //transform.LookAt(player.transform);
         if (PlayerPrefs.GetInt("health")>=1)
         {
