@@ -42,6 +42,7 @@ public class EnemyMove : MonoBehaviour
             int a=nyawaPlayer.nyawa ;
             int b = a - 20;
             nyawaPlayer.nyawa = b;
+            GameObject.Destroy(this.gameObject);
         }
     }
 

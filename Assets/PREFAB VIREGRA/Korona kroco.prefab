@@ -27,7 +27,7 @@ GameObject:
   - component: {fileID: 262671746}
   m_Layer: 0
   m_Name: Korona kroco
-  m_TagString: Untagged
+  m_TagString: virus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59df8026f455cf749baee884194f5d09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nama: Pelampiasan
+  nama: Body
   player: {fileID: 0}
   speed: 1.5
   timetoAddSpeed: 5
