@@ -22,7 +22,7 @@ public class KontrolPistol : MonoBehaviour
 
     bool isUICanvasActive = false;
     [SerializeField]
-    GameObject UICanvasGameobject;
+    public GameObject UICanvasGameobject;
     [SerializeField]
     Vector3 positionOffsetForUICanvasGameobject;
     public int JumlahPlayerPrefers;
@@ -34,6 +34,8 @@ public class KontrolPistol : MonoBehaviour
     public ActionBasedControllerManager kontrolTanganKanan;
     public bool petunjukPenggunaan;//untuk panel tutorial
     public bool adapetunjuk, level1;
+    public bool berhenti;
+    public GameObject pistol;
 
 
     #region Unity Method
@@ -84,14 +86,20 @@ public class KontrolPistol : MonoBehaviour
     public void OnEnable()
     {
         inputActionReference_UISwitcher.action.performed += ActivateUIMode;
-        TombolTembak.action.performed += Tembak;
+        if (!berhenti) { TombolTembak.action.performed += Tembak; }
+            
+       
+        
         //inputActionReference_UISwitcher.action.performed += pauseGame;
 
     }
     public void OnDisable()
     {
         inputActionReference_UISwitcher.action.performed -= ActivateUIMode;
-        TombolTembak.action.performed -= Tembak;
+        if (!berhenti) { TombolTembak.action.performed -= Tembak; }
+        
+        
+        
         //inputActionReference_UISwitcher.action.performed -= pauseGame;
 
     }
@@ -139,7 +147,104 @@ public class KontrolPistol : MonoBehaviour
         {
             panelPause.SetActive(true);
         }
+        if (waktuhabis == true)
+        {
+            UICanvasGameobject.SetActive(true);
+            panelkalah.SetActive(true);
+        }
+        else
+        {
+            panelkalah.SetActive(false);
+        }
 
+
+
+        if (!isUICanvasActive)
+        {
+            if (!petunjukPenggunaan)
+            {
+                if (win || waktuhabis)
+                {
+                    Time.timeScale = 0;
+                }
+                else
+                {
+                    Time.timeScale = 0;
+                }
+                UICanvasGameobject.SetActive(true);
+            }
+
+            isUICanvasActive = true;
+            berhenti = true;
+
+            kontrolTanganKanan.enabled = false;
+
+
+
+            //Activating UI Controller by enabling its XR Ray Interactor and XR Interactor Line Visual
+            UIController.GetComponent<XRRayInteractor>().enabled = true;
+            UIController.GetComponent<XRInteractorLineVisual>().enabled = true;
+
+            //Deactivating Base Controller by disabling its XR Direct Interactor
+            BaseController.GetComponent<XRDirectInteractor>().enabled = false;
+
+            //Adjusting the transform of the UI Canvas Gameobject according to the VR Player transform
+            Vector3 positionVec = new Vector3(UIController.transform.position.x, positionOffsetForUICanvasGameobject.y, UIController.transform.position.z);
+            Vector3 directionVec = UIController.transform.forward;
+            directionVec.y = 0f;
+            UICanvasGameobject.transform.position = positionVec + positionOffsetForUICanvasGameobject.magnitude * directionVec;
+            UICanvasGameobject.transform.rotation = Quaternion.LookRotation(directionVec);
+
+            //Activating the UI Canvas Gameobject
+
+        }
+        else
+        {
+            if (!petunjukPenggunaan)
+            {
+                if (win || waktuhabis)
+                {
+                    Time.timeScale = 0;
+                }
+                else
+                {
+                    Time.timeScale = 1;
+                }
+                //UICanvasGameobject.SetActive(false);
+            }
+            isUICanvasActive = false;
+            UICanvasGameobject.SetActive(false);
+            berhenti = false;
+            kontrolTanganKanan.enabled = true;
+
+
+
+            //De-Activating UI Controller by enabling its XR Ray Interactor and XR Interactor Line Visual
+            UIController.GetComponent<XRRayInteractor>().enabled = false;
+            UIController.GetComponent<XRInteractorLineVisual>().enabled = false;
+
+            //Activating Base Controller by disabling its XR Direct Interactor
+            BaseController.GetComponent<XRDirectInteractor>().enabled = true;
+
+            //De-Activating the UI Canvas Gameobject
+
+        }
+
+
+    }
+
+    public void Kalah()
+    {
+
+        if (waktuhabis == true)
+        {
+            UICanvasGameobject.SetActive(true);
+            panelkalah.SetActive(true);
+        }
+        else
+        {
+            panelkalah.SetActive(false);
+        }
 
 
 
@@ -182,27 +287,13 @@ public class KontrolPistol : MonoBehaviour
         }
         else
         {
-            if (!petunjukPenggunaan)
-            {
-                if (win || waktuhabis)
-                {
-                    Time.timeScale = 0;
-                }
-                else
-                {
-                    Time.timeScale = 1;
-                }
-                UICanvasGameobject.SetActive(false);
-            }
+
             isUICanvasActive = false;
             kontrolTanganKanan.enabled = true;
-
-
 
             //De-Activating UI Controller by enabling its XR Ray Interactor and XR Interactor Line Visual
             UIController.GetComponent<XRRayInteractor>().enabled = false;
             UIController.GetComponent<XRInteractorLineVisual>().enabled = false;
-
             //Activating Base Controller by disabling its XR Direct Interactor
             BaseController.GetComponent<XRDirectInteractor>().enabled = true;
 

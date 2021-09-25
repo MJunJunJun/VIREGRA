@@ -28,6 +28,7 @@ public class UI_InteractionController : MonoBehaviour
     public ActionBasedControllerManager kontrolTanganKanan;
     public bool petunjukPenggunaan;//untuk panel tutorial
     public bool adapetunjuk,level1;
+    public bool includKalah;
 
 
     #region Unity Method

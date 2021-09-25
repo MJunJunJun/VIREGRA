@@ -47,7 +47,8 @@ public class TImer : MonoBehaviour
                 kontrolUI.waktuhabis=true;
                 //kontrolUI.OnEnable();
                 kontrolUI.panelkalah.SetActive(true);
-
+                kontrolUI.UIMODE();
+                this.gameObject.SetActive(false);
             }
             
         }

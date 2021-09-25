@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HealthPlayer : MonoBehaviour
 {
-    public int nyawa;
+    public float nyawa;
     // Start is called before the first frame update
     void Start()
     {

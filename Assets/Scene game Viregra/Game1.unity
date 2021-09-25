@@ -2879,6 +2879,10 @@ PrefabInstance:
       propertyPath: portal
       value: 
       objectReference: {fileID: 281153839}
+    - target: {fileID: 175997870, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 293a96a7779d6e94783a9a409a3122d7, type: 3}
     - target: {fileID: 1501962001092310170, guid: cd13159f4f2c20d4d9b10d2f269c6a2f, type: 3}
       propertyPath: m_Name
       value: Area Player

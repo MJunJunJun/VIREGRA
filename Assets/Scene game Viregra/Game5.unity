@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.15884358, g: 0.51730573, b: 1.0391356, a: 1}
+  m_IndirectSpecularColor: {r: 0.1605202, g: 0.5180438, b: 1.0452659, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7532,7 +7532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   kontrolUI: {fileID: 5016624360486950883}
   detik: 0
-  detikAwal: 59
+  detikAwal: 10
   menit: 2
   textHitungMundur: {fileID: 4207806452004947509}
 --- !u!1 &313124094114929496
@@ -10062,6 +10062,7 @@ MonoBehaviour:
   petunjukPenggunaan: 0
   adapetunjuk: 1
   level1: 0
+  includKalah: 0
 --- !u!1 &5016624360486950893
 GameObject:
   m_ObjectHideFlags: 0

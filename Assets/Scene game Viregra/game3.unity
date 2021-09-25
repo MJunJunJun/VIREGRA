@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1605202, g: 0.5180438, b: 1.0452659, a: 1}
+  m_IndirectSpecularColor: {r: 0.15902616, g: 0.5176221, b: 1.0392603, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3398,7 +3398,7 @@ MonoBehaviour:
   ONKompor: {fileID: 1996373182}
   tutupMinyak: {fileID: 1626559568}
   urutan: 0
-  controlMenang: {fileID: 0}
+  controlMenang: {fileID: 5016624360486950883}
   suaraProses: {fileID: 847155759}
   minyak: {fileID: 1626559573}
   minyakBox: {fileID: 1626559570}

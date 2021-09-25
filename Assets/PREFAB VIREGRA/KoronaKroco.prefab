@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 6611455005310847184}
   - component: {fileID: 262671746}
   m_Layer: 0
-  m_Name: Korona kroco
+  m_Name: KoronaKroco
   m_TagString: virus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.15884358, g: 0.51730573, b: 1.0391356, a: 1}
+  m_IndirectSpecularColor: {r: 0.1605202, g: 0.5180438, b: 1.0452659, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1242,6 +1242,54 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &357094329
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 357094330}
+  - component: {fileID: 357094331}
+  m_Layer: 0
+  m_Name: Timer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &357094330
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357094329}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3401239245167288595}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &357094331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357094329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab6b44f5020dabf40a47367947b28a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kontrolUI: {fileID: 5016624360486950883}
+  detik: 0
+  detikAwal: 30
+  menit: 3
+  textHitungMundur: {fileID: 4207806452004947509}
 --- !u!1 &361344174 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1292599438810107027, guid: c29a0e38a0c4a214799bdf4c94a80bcf, type: 3}
@@ -5911,7 +5959,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3802898838309538218, guid: 557cb2b7286a9e34da5ec7f8f913c17e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.4921064
+      value: 1.489
       objectReference: {fileID: 0}
     - target: {fileID: 3802898838309538218, guid: 557cb2b7286a9e34da5ec7f8f913c17e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5931,11 +5979,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3802898838309538218, guid: 557cb2b7286a9e34da5ec7f8f913c17e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -44.81417
+      value: -44.804
       objectReference: {fileID: 0}
     - target: {fileID: 3802898838309538218, guid: 557cb2b7286a9e34da5ec7f8f913c17e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.49667585
+      value: -0.502
       objectReference: {fileID: 0}
     - target: {fileID: 3802898838309538218, guid: 557cb2b7286a9e34da5ec7f8f913c17e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9608,23 +9656,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6909810898715011167}
   m_Mesh: {fileID: -4559681348659797430, guid: e1771d0663ea83f4cb714ab1ce1d3d51, type: 3}
---- !u!114 &106545909626418005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1830986796130276096}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab6b44f5020dabf40a47367947b28a4a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  kontrolUI: {fileID: 5016624360486950883}
-  detik: 0
-  detikAwal: 59
-  menit: 2
-  textHitungMundur: {fileID: 4207806452004947509}
 --- !u!1 &313124094114929496
 GameObject:
   m_ObjectHideFlags: 0
@@ -9673,7 +9704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18739c16c33094e44b32ccc8c0d0ac4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waktu: {fileID: 106545909626418005}
+  waktu: {fileID: 0}
   Timer: {fileID: 8082380818900911206}
   Poin: {fileID: 1321847537977486195}
   TotalPoin: {fileID: 1086881524615800814}
@@ -10003,7 +10034,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3401239245167288595}
-  - component: {fileID: 106545909626418005}
   m_Layer: 0
   m_Name: Avatar Player
   m_TagString: Untagged
@@ -10295,6 +10325,7 @@ Transform:
   - {fileID: 5016624361204370995}
   - {fileID: 5016624359479592178}
   - {fileID: 5016624361138264261}
+  - {fileID: 357094330}
   m_Father: {fileID: 5016624359278263209}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12160,6 +12191,7 @@ MonoBehaviour:
   petunjukPenggunaan: 0
   adapetunjuk: 1
   level1: 0
+  includKalah: 0
 --- !u!1 &5016624360486950893
 GameObject:
   m_ObjectHideFlags: 0

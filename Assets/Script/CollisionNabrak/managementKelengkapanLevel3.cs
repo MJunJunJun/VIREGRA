@@ -11,7 +11,7 @@ public class managementKelengkapanLevel3 : MonoBehaviour
     public UI_InteractionController controlMenang;
     public GameObject suaraProses;
     public CollisionLevel3 minyak;
-    public BoxCollider minyakBox;
+    public BoxCollider minyakBox; //
     
     // Start is called before the first frame update
     void Start()
@@ -82,6 +82,7 @@ public class managementKelengkapanLevel3 : MonoBehaviour
             ONKompor.SetActive(false);
 
             controlMenang.win = true;
+            controlMenang.enabled = true;
             controlMenang.panelMenang.SetActive(true);
             controlMenang.enabled = true;
             controlMenang.UIMODE();

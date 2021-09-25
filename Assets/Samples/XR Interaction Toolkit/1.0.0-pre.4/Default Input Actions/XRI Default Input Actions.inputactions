@@ -967,7 +967,7 @@
                 {
                     "name": "",
                     "id": "2cccb17b-76ba-4af2-b3cd-bc0443e1dd06",
-                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "path": "<XRController>{RightHand}/gripPressed",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

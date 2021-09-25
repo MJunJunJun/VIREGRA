@@ -4,14 +4,20 @@ using UnityEngine;
 
 public class projecttile : MonoBehaviour
 {
-    public GameObject explosionVFX;
+    //public GameObject explosionVFX;
     public float lama = 3f;
+    public string nama;
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other);
-        Destroy(gameObject);
-        Instantiate(explosionVFX,transform.position,transform.rotation);
+
+        if (other.gameObject.name == nama)
+        {
+            Debug.Log(other);
+            Destroy(gameObject);
+            //Instantiate(explosionVFX,transform.position,transform.rotation);
+
+        }
 
     }
 

@@ -129,8 +129,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebe45b8345ef45245a63ca4e26c18004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionVFX: {fileID: 100010, guid: 645413a00f7bd0242bbd6d0e5eb6f439, type: 3}
   lama: 3
+  nama: KoronaKroco
 --- !u!114 &1220373889444551875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,6 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   penambahan: 5
+  nyawa: {fileID: 0}
 --- !u!82 &-1333108016120813868
 AudioSource:
   m_ObjectHideFlags: 0
