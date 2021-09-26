@@ -18,8 +18,8 @@ EditorBuildSettings:
     path: Assets/Scene game Viregra/Game2.unity
     guid: 01618fc918153c74b894bb00d7e1cecc
   - enabled: 0
-    path: Assets/Scene game Viregra/game3.unity
-    guid: cdc3ad874dbb3604698433698da1c8fe
+    path: Assets/Scene game Viregra/game3 Backup Terbaruuuuu.unity
+    guid: 3d7d3069632585d42bfdacee67351179
   - enabled: 0
     path: Assets/Scene game Viregra/game4.unity
     guid: 7ffb0a796d9e7a246930ac362ac67f9f
@@ -33,11 +33,11 @@ EditorBuildSettings:
     path: Assets/Scene game Viregra/Pistol.unity
     guid: cfe857baad78a794d9cccb6b6c9f5a52
   - enabled: 0
-    path: Assets/Scene game Viregra/game3 Backup Terbaruuuuu.unity
-    guid: 3d7d3069632585d42bfdacee67351179
-  - enabled: 0
     path: Assets/Scene game Viregra/Game 3 Bismillah FIX.unity
     guid: 2da1cefa3f7548c45aaa73d469b65d88
+  - enabled: 0
+    path: Assets/Scene game Viregra/game3.unity
+    guid: cdc3ad874dbb3604698433698da1c8fe
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f4c6c87b20d6ad048be2bfd1d8202f4a, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3605be7989e6dff478e04bdfea2ce4c4, type: 2}

@@ -30,6 +30,12 @@ public class UI_InteractionController : MonoBehaviour
     public bool adapetunjuk,level1;
     public bool includKalah;
 
+    public bool final;
+    public KontrolPistol kontrolPistolBos;
+    public UI_InteractionController kontrolBos;
+    public bool level3;
+    public float detik;
+
 
     #region Unity Method
     private void Start()
@@ -61,6 +67,22 @@ public class UI_InteractionController : MonoBehaviour
 
     private void Update()
     {
+        if (level3)
+        {
+            
+            if (win)
+            {
+                detik -= 1 * Time.deltaTime;
+                if (detik >= 0)
+                {
+                    UIController.GetComponent<XRRayInteractor>().enabled = true;
+                    UIController.GetComponent<XRInteractorLineVisual>().enabled = true;
+                }
+                
+            }
+        }
+
+        
         /*if (win)
         {
             //inputActionReference_UISwitcher.action.performed += ActivateUIMode;
@@ -118,7 +140,10 @@ public class UI_InteractionController : MonoBehaviour
 
     public void UIMODE()
     {
-
+        if (win == true )
+        {
+            kontrolTanganKanan.enabled = true;
+        }
 
 
         if (win == true || waktuhabis == true)
@@ -129,78 +154,86 @@ public class UI_InteractionController : MonoBehaviour
         {
             panelPause.SetActive(true);
         }
-        
+
 
 
 
         if (!isUICanvasActive)
+        {
+            if (!petunjukPenggunaan)
             {
-                if (!petunjukPenggunaan)
+                if (win || waktuhabis)
                 {
-                    if (win || waktuhabis)
-                    {
-                        Time.timeScale = 0;
-                    }
-                    else
-                    {
-                        Time.timeScale = 0;
-                    }
+                    Time.timeScale = 0;
+                }
+                else
+                {
+                    Time.timeScale = 0;
+                }
                 UICanvasGameobject.SetActive(true);
             }
             isUICanvasActive = true;
 
             kontrolTanganKanan.enabled = false;
 
-                
 
-                //Activating UI Controller by enabling its XR Ray Interactor and XR Interactor Line Visual
-                UIController.GetComponent<XRRayInteractor>().enabled = true;
-                UIController.GetComponent<XRInteractorLineVisual>().enabled = true;
 
-                //Deactivating Base Controller by disabling its XR Direct Interactor
-                BaseController.GetComponent<XRDirectInteractor>().enabled = false;
+            //Activating UI Controller by enabling its XR Ray Interactor and XR Interactor Line Visual
+            UIController.GetComponent<XRRayInteractor>().enabled = true;
+            UIController.GetComponent<XRInteractorLineVisual>().enabled = true;
 
-                //Adjusting the transform of the UI Canvas Gameobject according to the VR Player transform
-                Vector3 positionVec = new Vector3(UIController.transform.position.x, positionOffsetForUICanvasGameobject.y, UIController.transform.position.z);
-                Vector3 directionVec = UIController.transform.forward;
-                directionVec.y = 0f;
-                UICanvasGameobject.transform.position = positionVec + positionOffsetForUICanvasGameobject.magnitude * directionVec;
-                UICanvasGameobject.transform.rotation = Quaternion.LookRotation(directionVec);
+            //Deactivating Base Controller by disabling its XR Direct Interactor
+            BaseController.GetComponent<XRDirectInteractor>().enabled = false;
 
-                //Activating the UI Canvas Gameobject
-                
-            }
-            else
+            //Adjusting the transform of the UI Canvas Gameobject according to the VR Player transform
+            Vector3 positionVec = new Vector3(UIController.transform.position.x, positionOffsetForUICanvasGameobject.y, UIController.transform.position.z);
+            Vector3 directionVec = UIController.transform.forward;
+            directionVec.y = 0f;
+            UICanvasGameobject.transform.position = positionVec + positionOffsetForUICanvasGameobject.magnitude * directionVec;
+            UICanvasGameobject.transform.rotation = Quaternion.LookRotation(directionVec);
+
+            //Activating the UI Canvas Gameobject
+
+        }
+
+        else
+        {
+            if (!petunjukPenggunaan)
             {
-                if (!petunjukPenggunaan)
+                if (win || waktuhabis)
                 {
-                    if (win || waktuhabis)
-                    {
-                        Time.timeScale = 0;
-                    }
-                    else
-                    {
-                        Time.timeScale = 1;
-                    }
+                    Time.timeScale = 0;
+                }
+                else
+                {
+                    Time.timeScale = 1;
+                }
                 UICanvasGameobject.SetActive(false);
             }
             isUICanvasActive = false;
             kontrolTanganKanan.enabled = true;
 
-                
 
-                //De-Activating UI Controller by enabling its XR Ray Interactor and XR Interactor Line Visual
-                UIController.GetComponent<XRRayInteractor>().enabled = false;
-                UIController.GetComponent<XRInteractorLineVisual>().enabled = false;
-
-                //Activating Base Controller by disabling its XR Direct Interactor
-                BaseController.GetComponent<XRDirectInteractor>().enabled = true;
-
-                //De-Activating the UI Canvas Gameobject
-                
+/*            if (final)
+            {
+                kontrolPistolBos.enabled = true;
+                kontrolBos.enabled = false;
             }
-        
-        
+  */          
+
+
+            //De-Activating UI Controller by enabling its XR Ray Interactor and XR Interactor Line Visual
+            UIController.GetComponent<XRRayInteractor>().enabled = false;
+            UIController.GetComponent<XRInteractorLineVisual>().enabled = false;
+
+            //Activating Base Controller by disabling its XR Direct Interactor
+            BaseController.GetComponent<XRDirectInteractor>().enabled = true;
+
+            //De-Activating the UI Canvas Gameobject
+
+        }
+
+
     }
 
     #endregion

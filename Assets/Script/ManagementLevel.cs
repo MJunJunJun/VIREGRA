@@ -7,6 +7,7 @@ public class ManagementLevel : MonoBehaviour
 {
     int levelSekarang;
     public int levelUnlock;
+    
     private void Start()
     {
         levelSekarang = PlayerPrefs.GetInt("levelgame");

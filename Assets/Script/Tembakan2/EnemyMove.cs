@@ -10,6 +10,7 @@ public class EnemyMove : MonoBehaviour
     public float speed =1.5f;
     public float timetoAddSpeed = 5;
     public HealthPlayer nyawaPlayer;
+    public NyawaBos nyawabos;
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +18,7 @@ public class EnemyMove : MonoBehaviour
         PlayerPrefs.SetInt("health", 100);
         player = GameObject.FindGameObjectWithTag("Player");
         nyawaPlayer = GameObject.FindObjectOfType<HealthPlayer>();
+        nyawabos = GameObject.FindObjectOfType<NyawaBos>();
     }
 
     // Update is called once per frame
@@ -31,6 +33,14 @@ public class EnemyMove : MonoBehaviour
 
             transform.position += transform.forward * speed * Time.deltaTime;
         }
+        if (nyawabos.nyawaBos <= 0) {
+            this.gameObject.SetActive(false);
+        }
+        if (nyawaPlayer.nyawa <= 0)
+        {
+            this.gameObject.SetActive(false);
+        }
+
        
     }
 

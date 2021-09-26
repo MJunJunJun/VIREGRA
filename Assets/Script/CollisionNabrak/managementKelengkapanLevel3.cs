@@ -8,11 +8,12 @@ public class managementKelengkapanLevel3 : MonoBehaviour
     public GameObject wajan, jagungWajan,tutupWajan, Popcorn, PopcornMeledak,oFFKompor,api,minyakDiwajan;
     public GameObject wajanGerak,tutupWajanGerak, jagungGerak,ONKompor,tutupMinyak;
     public int urutan;
-    public UI_InteractionController controlMenang;
+    //public UI_InteractionController controlMenang;
     public GameObject suaraProses;
     public CollisionLevel3 minyak;
     public BoxCollider minyakBox; //
-    
+    public UI_InteractionController controlMenang;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -82,9 +83,7 @@ public class managementKelengkapanLevel3 : MonoBehaviour
             ONKompor.SetActive(false);
 
             controlMenang.win = true;
-            controlMenang.enabled = true;
             controlMenang.panelMenang.SetActive(true);
-            controlMenang.enabled = true;
             controlMenang.UIMODE();
             Time.timeScale = 0;
 

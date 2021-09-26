@@ -6,6 +6,8 @@ public class NyawaBos : MonoBehaviour
 {
     public float nyawaBos;
     public KontrolPistol controlMenang;
+    public GameObject menang;
+    public GameObject bosKorona;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,27 +25,13 @@ public class NyawaBos : MonoBehaviour
         {
             controlMenang.win = true;
             controlMenang.panelMenang.SetActive(true);
-            controlMenang.UIMODE();
-            Time.timeScale = 0;
+            //controlMenang.UIMODE();
+            controlMenang.winnn();
+            menang.SetActive(true);
+            Time.timeScale = 1;
+            controlMenang.UICanvasGameobject.SetActive(true);
+            bosKorona.SetActive(false);
 
-
-            //kontrolMenang.
-            //controlMenang.win = true;
-            //controlMenang.panelMenang.SetActive(true);
-            /*controlMenang.UICanvasGameobject.SetActive(true);
-            controlMenang.panelkalah.SetActive(true);
-            controlMenang.UIMODE();
-            //controlMenang.Kalah();
-            Time.timeScale = 0;
-            Destroy(this.gameObject);
-            */
-
-            /*PlayerPrefs.SetFloat("gameover", 1);
-            controlMenang.waktuhabis = true;
-            //kontrolUI.OnEnable();
-            controlMenang.panelkalah.SetActive(true);
-            controlMenang.UIMODE();
-            this.gameObject.SetActive(false);*/
         }
     }
 }

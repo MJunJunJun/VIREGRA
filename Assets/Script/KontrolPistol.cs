@@ -19,6 +19,7 @@ public class KontrolPistol : MonoBehaviour
     InputActionReference TombolTembak;
 
     public Spawner spawnerBullet;
+    
 
     bool isUICanvasActive = false;
     [SerializeField]
@@ -37,10 +38,15 @@ public class KontrolPistol : MonoBehaviour
     public bool berhenti;
     public GameObject pistol;
 
+    public bool final;
+    public KontrolPistol kontrolPistolBos;
+    public UI_InteractionController kontrolBos;
 
     #region Unity Method
     private void Start()
     {
+        kontrolBos.enabled = false;
+        kontrolPistolBos.enabled = true;
         jumlahMisiSekarang = 0;
         //Deactivating UI Canvas Gameobject by default
         UICanvasGameobject.SetActive(false);
@@ -139,31 +145,49 @@ public class KontrolPistol : MonoBehaviour
 
 
 
-        if (win == true || waktuhabis == true)
+        if (win == true ||waktuhabis == true)
         {
-            panelPause.SetActive(false);
+           panelPause.SetActive(false);
         }
         else
         {
-            panelPause.SetActive(true);
+           panelPause.SetActive(true);
         }
         if (waktuhabis == true)
         {
             UICanvasGameobject.SetActive(true);
             panelkalah.SetActive(true);
+            Time.timeScale = 1;
         }
         else
         {
             panelkalah.SetActive(false);
+        }
+        if (win == true)
+        {
+            UICanvasGameobject.SetActive(true);
+            panelMenang.SetActive(true);
+            Time.timeScale = 1;
+            
+        }
+        else
+        {
+            panelMenang.SetActive(false);
         }
 
 
 
         if (!isUICanvasActive)
         {
+           /*if (final)
+            {
+                kontrolPistolBos.enabled = false;
+                kontrolBos.enabled = true;
+            }*/
+
             if (!petunjukPenggunaan)
             {
-                if (win || waktuhabis)
+               if (win || waktuhabis)
                 {
                     Time.timeScale = 0;
                 }
@@ -232,37 +256,56 @@ public class KontrolPistol : MonoBehaviour
 
 
     }
-
-    public void Kalah()
+    public void winnn()
     {
-
+        if (win == true || waktuhabis == true)
+        {
+            // panelPause.SetActive(false);
+        }
+        else
+        {
+            // panelPause.SetActive(true);
+        }
         if (waktuhabis == true)
         {
             UICanvasGameobject.SetActive(true);
             panelkalah.SetActive(true);
+            Time.timeScale = 1;
         }
         else
         {
             panelkalah.SetActive(false);
+        }
+        if (win == true)
+        {
+            UICanvasGameobject.SetActive(true);
+            panelMenang.SetActive(true);
+            Time.timeScale = 1;
+
+        }
+        else
+        {
+            panelMenang.SetActive(false);
         }
 
 
 
         if (!isUICanvasActive)
         {
+            /* if (final)
+             {
+                 kontrolPistolBos.enabled = false;
+                 kontrolBos.enabled = true;
+             }*/
+
             if (!petunjukPenggunaan)
             {
-                if (win || waktuhabis)
-                {
-                    Time.timeScale = 0;
-                }
-                else
-                {
-                    Time.timeScale = 0;
-                }
+
                 UICanvasGameobject.SetActive(true);
             }
+
             isUICanvasActive = true;
+            berhenti = true;
 
             kontrolTanganKanan.enabled = false;
 
@@ -287,19 +330,43 @@ public class KontrolPistol : MonoBehaviour
         }
         else
         {
+            if (!petunjukPenggunaan)
+            {
 
+            }
             isUICanvasActive = false;
+            UICanvasGameobject.SetActive(false);
+            berhenti = false;
             kontrolTanganKanan.enabled = true;
+
+
 
             //De-Activating UI Controller by enabling its XR Ray Interactor and XR Interactor Line Visual
             UIController.GetComponent<XRRayInteractor>().enabled = false;
             UIController.GetComponent<XRInteractorLineVisual>().enabled = false;
+
             //Activating Base Controller by disabling its XR Direct Interactor
             BaseController.GetComponent<XRDirectInteractor>().enabled = true;
 
             //De-Activating the UI Canvas Gameobject
 
         }
+
+    }
+
+    public void Kalah()
+    {
+
+        if (waktuhabis == true)
+        {
+            UICanvasGameobject.SetActive(true);
+            panelkalah.SetActive(true);
+        }
+        else
+        {
+            panelkalah.SetActive(false);
+        }
+
 
 
     }

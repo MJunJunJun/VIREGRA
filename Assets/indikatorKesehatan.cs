@@ -10,6 +10,7 @@ public class indikatorKesehatan : MonoBehaviour
     float awal = 100;
     float perubahan;
     public GameObject pistol;
+    public GameObject kalah;
 
     public KontrolPistol controlMenang;
     // Start is called before the first frame update
@@ -35,10 +36,13 @@ public class indikatorKesehatan : MonoBehaviour
             */
             PlayerPrefs.SetFloat("gameover", 1);
             controlMenang.panelkalah.SetActive(true);
-            controlMenang.UIMODE();
+            controlMenang.UICanvasGameobject.SetActive(true);
+            //controlMenang.UIMODE();
+            controlMenang.Kalah();
             controlMenang.waktuhabis = true;
             this.gameObject.SetActive(false);
             pistol.SetActive(false);
+            kalah.SetActive(true);
         }
         
 

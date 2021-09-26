@@ -2282,6 +2282,12 @@ MonoBehaviour:
   petunjukPenggunaan: 1
   adapetunjuk: 1
   level1: 0
+  includKalah: 0
+  final: 0
+  kontrolPistolBos: {fileID: 0}
+  kontrolBos: {fileID: 0}
+  level3: 0
+  detik: 0
 --- !u!1 &5016624359369745716
 GameObject:
   m_ObjectHideFlags: 0
