@@ -15,6 +15,7 @@ public class Dubing : MonoBehaviour
     public TeleportationArea portal;
     public bool lawanRaja;
     public GameObject pistolSpwaner;
+    
     //public bool level1;
 
     private void Start()
@@ -57,6 +58,7 @@ public class Dubing : MonoBehaviour
             //
             suaraDubing.SetActive(false);
             portal.enabled = true;
+            //managementTeleportKetikaDubingSelesai.enabled = true;
         }
         else
         {
@@ -65,7 +67,7 @@ public class Dubing : MonoBehaviour
             {
                 pistolSpwaner.SetActive(false);
             }
-            
+           // managementTeleportKetikaDubingSelesai.enabled = false;
         }
         
     }

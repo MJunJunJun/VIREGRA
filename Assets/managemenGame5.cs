@@ -10,6 +10,7 @@ public class managemenGame5 : MonoBehaviour
     public GameObject skop1, skop2, skop3, skop4;
     public GameObject tanahDiskop,bunga,bungaDipot;
     public GameObject tanahdiPot1, tanahdiPot2;
+    public GameObject sebelum, sesudah;
     
 
     // Start is called before the first frame update
@@ -54,6 +55,8 @@ public class managemenGame5 : MonoBehaviour
             controlMenang.win = true;
             controlMenang.panelMenang.SetActive(true);
             controlMenang.UIMODE();
+            sebelum.SetActive(false);
+            sesudah.SetActive(true);
             Time.timeScale = 0;
         }
         else if (urutan == 6)

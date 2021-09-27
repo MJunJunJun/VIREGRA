@@ -11,7 +11,11 @@ public class ManagementLevel : MonoBehaviour
     private void Start()
     {
         levelSekarang = PlayerPrefs.GetInt("levelgame");
-
+        if (levelUnlock > levelSekarang)
+        {
+            PlayerPrefs.SetInt("levelgame", levelUnlock);
+        }
+      //  SceneManager.LoadScene(levelUnlock);
     }
     public void levelSelanjutnya()
     {

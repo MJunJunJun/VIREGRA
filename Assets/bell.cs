@@ -24,7 +24,8 @@ public class bell : MonoBehaviour
             controlMenang.win = true;
             controlMenang.panelMenang.SetActive(true);
             controlMenang.UIMODE();
-            Time.timeScale = 0;
+            controlMenang.UIMODE();
+          //  Time.timeScale = 0;
         }
         else
         {

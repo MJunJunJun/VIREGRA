@@ -6,6 +6,7 @@ public class level2 : MonoBehaviour
 {
     public int piringA, piringB;
     public UI_InteractionController controlMenang;
+    public GameObject sebelum, sesudah;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,8 @@ public class level2 : MonoBehaviour
             controlMenang.win = true;
             controlMenang.panelMenang.SetActive(true);
             controlMenang.UIMODE();
+            sebelum.SetActive(false);
+            sesudah.SetActive(true);
         }
 
 

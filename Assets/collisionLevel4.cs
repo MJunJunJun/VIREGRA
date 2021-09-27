@@ -5,7 +5,7 @@ using UnityEngine;
 public class collisionLevel4 : MonoBehaviour
 {
     public string nama;
-    public GameObject PANELJAM;
+    public GameObject PANELJAM,bapakSebelum,bapakSesudah;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +22,8 @@ public class collisionLevel4 : MonoBehaviour
         if (other.gameObject.name == nama)
         {
             PANELJAM.SetActive(true);
+            bapakSebelum.SetActive(false);
+            bapakSesudah.SetActive(true);
         }
     }
 }

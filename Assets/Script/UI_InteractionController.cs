@@ -83,17 +83,7 @@ public class UI_InteractionController : MonoBehaviour
         }
 
         
-        /*if (win)
-        {
-            //inputActionReference_UISwitcher.action.performed += ActivateUIMode;
-             OnEnable();
-        }
-        if (waktuhabis)
-        {
-            OnEnable();
-            //inputActionReference_UISwitcher.action.performed += ActivateUIMode;
-        }*/
-
+       
     }
     #endregion
 

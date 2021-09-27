@@ -518,7 +518,7 @@ MonoBehaviour:
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 512
   m_CustomReticle: {fileID: 0}
   m_FirstHoverEntered:
     m_PersistentCalls:
@@ -1763,7 +1763,7 @@ MonoBehaviour:
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 512
   m_CustomReticle: {fileID: 0}
   m_FirstHoverEntered:
     m_PersistentCalls:
@@ -2207,6 +2207,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -1961522924190725318, guid: 35e90a01a41c53f419c451af64029c6f, type: 3}
   m_PrefabInstance: {fileID: 1142304308}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1142304310 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7271449666460269675, guid: 35e90a01a41c53f419c451af64029c6f, type: 3}
+  m_PrefabInstance: {fileID: 1142304308}
+  m_PrefabAsset: {fileID: 0}
 --- !u!95 &1142304311
 Animator:
   serializedVersion: 3
@@ -2226,6 +2231,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &1142304312
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142304310}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9999999, y: 1.9999994, z: 0}
+  m_Center: {x: 0, y: -1.1166766e-17, z: 0.0015715825}
 --- !u!114 &1142304313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2242,7 +2260,7 @@ MonoBehaviour:
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 512
   m_CustomReticle: {fileID: 0}
   m_FirstHoverEntered:
     m_PersistentCalls:
@@ -4575,7 +4593,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080753632}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0.776, y: 0.658, z: -1.332}
+  m_LocalPosition: {x: -0.776, y: 0.698, z: -1.333}
   m_LocalScale: {x: 0.12597945, y: 0.12597945, z: 0.12597945}
   m_Children:
   - {fileID: 2004042508}
@@ -4648,7 +4666,7 @@ MonoBehaviour:
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 512
   m_CustomReticle: {fileID: 0}
   m_FirstHoverEntered:
     m_PersistentCalls:
@@ -5715,7 +5733,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 886cead469c66e0449016ed5d7ede10b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10966,7 +10984,7 @@ RectTransform:
   m_GameObject: {fileID: 7241369508144320065}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0}
-  m_LocalScale: {x: 4.3336, y: 4.3336, z: 4.3336}
+  m_LocalScale: {x: 5.984268, y: 5.984268, z: 5.984268}
   m_Children: []
   m_Father: {fileID: 8082380819359766802}
   m_RootOrder: 0
