@@ -55,6 +55,7 @@ MonoBehaviour:
   portal: {fileID: 0}
   lawanRaja: 0
   pistolSpwaner: {fileID: 0}
+  vireboy: {fileID: 0}
 --- !u!82 &175997870
 AudioSource:
   m_ObjectHideFlags: 0

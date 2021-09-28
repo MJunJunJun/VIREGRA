@@ -14,6 +14,7 @@ public class openSceneTimer : MonoBehaviour
     int levelSekarang;
     public int levelUnlock,levelIni;
     public bool menang, kalah;
+    public float detikMaks;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,9 +26,9 @@ public class openSceneTimer : MonoBehaviour
     void Update()
     {
         
-        if (detik <= 10)
+        if (detik <= detikMaks)
         {
-            img.fillAmount = detik / 10;
+            img.fillAmount = detik / detikMaks;
             detik += 1 * Time.deltaTime;
         }
         else
