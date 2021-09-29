@@ -35,6 +35,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scene game Viregra/Game 3 Bismillah FIX.unity
     guid: 2da1cefa3f7548c45aaa73d469b65d88
+  - enabled: 0
+    path: Assets/Scene game Viregra/MainMenuu ubah.unity
+    guid: a860d70de373db44c8c7174c7f314ab3
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f4c6c87b20d6ad048be2bfd1d8202f4a, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3605be7989e6dff478e04bdfea2ce4c4, type: 2}

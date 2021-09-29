@@ -37,15 +37,16 @@ public class KontrolPistol : MonoBehaviour
     public bool adapetunjuk, level1;
     public bool berhenti;
     public GameObject pistol;
+   // public GameObject cek;
 
     public bool final;
     public KontrolPistol kontrolPistolBos;
-    public UI_InteractionController kontrolBos;
+    //public UI_InteractionController kontrolBos;
 
     #region Unity Method
     private void Start()
     {
-        kontrolBos.enabled = false;
+        //kontrolBos.enabled = false;
         kontrolPistolBos.enabled = true;
         jumlahMisiSekarang = 0;
         //Deactivating UI Canvas Gameobject by default
@@ -115,6 +116,7 @@ public class KontrolPistol : MonoBehaviour
     public void Tembak(InputAction.CallbackContext obj)
     {
         spawnerBullet.tembak();
+        //cek.SetActive(true);
     }
 
 

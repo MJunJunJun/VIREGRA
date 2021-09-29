@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Yakut
-  productName: Bismillah VIREGRA
+  productName: VIREGRA
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -152,6 +152,7 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 11400000, guid: f4c6c87b20d6ad048be2bfd1d8202f4a, type: 2}
   - {fileID: -1409914001563020479, guid: 6c937cb4ddbbf444d9ed0714bb1f922c, type: 2}
   metroInputSource: 0
@@ -171,7 +172,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.Yakut.BismillahVIREGRA
+    Android: com.Yakut.VIREGRA
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -284,7 +285,14 @@ PlayerSettings:
   AndroidMinifyDebug: 0
   AndroidValidateAppBundleSize: 1
   AndroidAppBundleSizeToValidate: 150
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: ca42e9afb30df754a87e8a69095ace21, type: 3}
+      m_Width: 128
+      m_Height: 128
+      m_Kind: 0
   m_BuildTargetPlatformIcons:
   - m_BuildTarget: Android
     m_Icons:
