@@ -90,7 +90,7 @@ public class managementPilihLevel : MonoBehaviour
             level7.SetActive(false);
             bayanganLevel7.SetActive(true);
         }
-        else if (CekPlayerPreferes == 8)
+        else if (CekPlayerPreferes >= 8)
         {
             level2.SetActive(true);
             bayanganLevel2.SetActive(false);
